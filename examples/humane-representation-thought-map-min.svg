@@ -1,0 +1,99 @@
+<svg width="100%" viewBox="0 0 860 460" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Humane Representation and the Ecology of Knowing</title>
+  <desc id="desc">A concise thought-map connecting Bret Victor, John Vervaeke, Andy Clark, humane medium, ecology of knowing, and Grasp Tools.</desc>
+
+  <defs>
+    <style>
+      .paper { fill: #fbf8f2; }
+      .edge { fill: none; stroke: #7b7167; stroke-width: 1.8; opacity: 0.88; }
+      .edge-label { font: 600 10px 'Avenir Next', 'Segoe UI', sans-serif; fill: #746b63; text-anchor: middle; }
+      .edge-label-bg { fill: rgba(251,248,242,0.96); stroke: rgba(90,72,52,0.05); }
+      .node-figure { fill: #eadcc7; }
+      .node-concept { fill: #dde5ef; }
+      .node-project { fill: #dce8dc; }
+      .node-card { stroke: rgba(63,49,36,0.08); stroke-width: 1.1; }
+      .kind { font: 700 8px 'Avenir Next', 'Segoe UI', sans-serif; fill: #7a7168; letter-spacing: 0.08em; text-transform: uppercase; }
+      .name { font: 700 14px 'Avenir Next', 'Segoe UI', sans-serif; fill: #1e1b18; }
+      .summary { font: italic 11px 'Iowan Old Style', Georgia, serif; fill: #564d45; }
+      .title { font: 700 22px 'Avenir Next', 'Segoe UI', sans-serif; fill: #1d1b19; letter-spacing: -0.02em; }
+      .subtitle { font: 500 10.5px 'Avenir Next', 'Segoe UI', sans-serif; fill: #70685f; letter-spacing: 0.10em; text-transform: uppercase; }
+      .annotation-box { fill: rgba(255,252,245,0.96); stroke: rgba(96,74,49,0.05); }
+      .annotation { font: italic 12px 'Iowan Old Style', Georgia, serif; fill: #2b241c; }
+      .footer { font: 500 9px 'Avenir Next', 'Segoe UI', sans-serif; fill: #8c8378; letter-spacing: 0.08em; text-transform: uppercase; }
+    </style>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#7b7167" />
+    </marker>
+  </defs>
+
+  <rect class="paper" x="0" y="0" width="860" height="460" rx="18" />
+
+  <text class="title" x="38" y="34">Humane Representation and the Ecology of Knowing</text>
+  <text class="subtitle" x="38" y="51">Bret Victor · John Vervaeke · Andy Clark</text>
+
+  <path class="edge" marker-end="url(#arrow)" d="M 160 160 C 195 200, 220 250, 285 318" />
+  <path class="edge" marker-end="url(#arrow)" d="M 430 160 C 450 205, 480 255, 545 318" />
+  <path class="edge" marker-end="url(#arrow)" d="M 700 160 C 645 205, 500 265, 285 318" />
+  <path class="edge" marker-end="url(#arrow)" d="M 545 318 C 485 308, 365 308, 285 318" />
+  <path class="edge" marker-end="url(#arrow)" d="M 285 318 C 390 318, 530 318, 705 318" />
+  <path class="edge" marker-end="url(#arrow)" d="M 545 318 C 605 336, 650 332, 705 318" />
+
+  <rect class="edge-label-bg" x="206" y="245" width="62" height="18" rx="9" />
+  <text class="edge-label" x="237" y="257">calls for</text>
+
+  <rect class="edge-label-bg" x="468" y="248" width="60" height="18" rx="9" />
+  <text class="edge-label" x="498" y="260">clarifies</text>
+
+  <rect class="edge-label-bg" x="507" y="231" width="54" height="18" rx="9" />
+  <text class="edge-label" x="534" y="243">grounds</text>
+
+  <rect class="edge-label-bg" x="402" y="301" width="56" height="18" rx="9" />
+  <text class="edge-label" x="430" y="313">deepens</text>
+
+  <g transform="translate(160,160)">
+    <rect class="node-card node-figure" x="-92" y="-32" width="184" height="64" rx="18" />
+    <text class="kind" x="-74" y="-16">Figure</text>
+    <text class="name" x="-74" y="2">Bret Victor</text>
+    <text class="summary" x="-74" y="20">Media shape thought</text>
+  </g>
+
+  <g transform="translate(430,160)">
+    <rect class="node-card node-figure" x="-92" y="-32" width="184" height="64" rx="18" />
+    <text class="kind" x="-74" y="-16">Figure</text>
+    <text class="name" x="-74" y="2">John Vervaeke</text>
+    <text class="summary" x="-74" y="20">Knowing exceeds propositions</text>
+  </g>
+
+  <g transform="translate(700,160)">
+    <rect class="node-card node-figure" x="-92" y="-32" width="184" height="64" rx="18" />
+    <text class="kind" x="-74" y="-16">Figure</text>
+    <text class="name" x="-74" y="2">Andy Clark</text>
+    <text class="summary" x="-74" y="20">Mind extends through scaffolds</text>
+  </g>
+
+  <g transform="translate(285,318)">
+    <rect class="node-card node-concept" x="-92" y="-32" width="184" height="64" rx="18" />
+    <text class="kind" x="-74" y="-16">Concept</text>
+    <text class="name" x="-74" y="2">Humane Medium</text>
+    <text class="summary" x="-74" y="20">Fuller human knowing</text>
+  </g>
+
+  <g transform="translate(545,318)">
+    <rect class="node-card node-concept" x="-92" y="-32" width="184" height="64" rx="18" />
+    <text class="kind" x="-74" y="-16">Concept</text>
+    <text class="name" x="-74" y="2">Ecology of Knowing</text>
+    <text class="summary" x="-74" y="20">Four kinds of knowing</text>
+  </g>
+
+  <g transform="translate(705,318)">
+    <rect class="node-card node-project" x="-92" y="-32" width="184" height="64" rx="18" />
+    <text class="kind" x="-74" y="-16">Project</text>
+    <text class="name" x="-74" y="2">Grasp Tools</text>
+    <text class="summary" x="-74" y="20">No outsourcing of grasp</text>
+  </g>
+
+  <rect class="annotation-box" x="208" y="384" width="440" height="28" rx="14" />
+  <text class="annotation" x="226" y="402">Humane tools should extend mind without outsourcing grasp.</text>
+
+  <text class="footer" x="38" y="434">Contour v0 · concise SVG communication artifact</text>
+</svg>

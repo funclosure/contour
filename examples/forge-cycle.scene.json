@@ -1,0 +1,90 @@
+{
+  "title": "F.O.R.G.E.",
+  "subtitle": "A co-learning cycle for human-AI sensemaking",
+  "nodes": [
+    {
+      "id": "find",
+      "label": "Find",
+      "kind": "concept",
+      "summary": "Catalyst",
+      "x": 140,
+      "y": 220,
+      "reveal": "visible"
+    },
+    {
+      "id": "oppose",
+      "label": "Oppose",
+      "kind": "concept",
+      "summary": "Friction",
+      "x": 305,
+      "y": 220,
+      "reveal": "visible"
+    },
+    {
+      "id": "refine",
+      "label": "Refine",
+      "kind": "concept",
+      "summary": "Synthesis",
+      "x": 470,
+      "y": 220,
+      "reveal": "visible"
+    },
+    {
+      "id": "ground",
+      "label": "Ground",
+      "kind": "concept",
+      "summary": "Application",
+      "x": 635,
+      "y": 220,
+      "reveal": "visible"
+    },
+    {
+      "id": "embody",
+      "label": "Embody",
+      "kind": "project",
+      "summary": "Execution",
+      "x": 800,
+      "y": 220,
+      "reveal": "visible"
+    },
+    {
+      "id": "optimal-grip",
+      "label": "Optimal Grip",
+      "kind": "claim",
+      "summary": "A better hold on meaning",
+      "x": 470,
+      "y": 360,
+      "reveal": "visible"
+    }
+  ],
+  "edges": [
+    { "from": "find", "to": "oppose", "kind": "bridges", "label": "heat" },
+    { "from": "oppose", "to": "refine", "kind": "bridges", "label": "compress" },
+    { "from": "refine", "to": "ground", "kind": "bridges", "label": "realize" },
+    { "from": "ground", "to": "embody", "kind": "bridges", "label": "live" },
+    { "from": "embody", "to": "optimal-grip", "kind": "supports", "label": "yields" },
+    { "from": "optimal-grip", "to": "find", "kind": "bridges", "label": "renews" }
+  ],
+  "groups": [
+    {
+      "id": "forge-cycle",
+      "label": "Sensemaking cycle",
+      "members": ["find", "oppose", "refine", "ground", "embody"],
+      "style": "region"
+    }
+  ],
+  "annotations": [
+    {
+      "id": "note-1",
+      "text": "Learning becomes real when understanding changes how one can move.",
+      "x": 210,
+      "y": 420,
+      "kind": "insight"
+    }
+  ],
+  "view": {
+    "theme": "light",
+    "showSummaries": true,
+    "showEdgeLabels": true
+  }
+}

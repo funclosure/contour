@@ -1,0 +1,136 @@
+<svg width="100%" viewBox="0 0 920 620" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Humane Representation and the Ecology of Knowing</title>
+  <desc id="desc">A thought-map showing the relationship between Bret Victor, John Vervaeke, Andy Clark, humane media, ecology of knowing, and Grasp Tools.</desc>
+
+  <defs>
+    <style>
+      .paper { fill: #f6f1e8; }
+      .contour { fill: none; stroke: #d4c7b4; stroke-width: 1.1; opacity: 0.5; }
+      .region-fill { fill: rgba(206, 191, 169, 0.12); }
+      .region-line { fill: none; stroke: rgba(124, 105, 85, 0.18); stroke-width: 1.1; }
+      .edge { fill: none; stroke: #7f756a; stroke-width: 1.9; opacity: 0.88; }
+      .edge-label-bg { fill: rgba(246, 241, 232, 0.96); stroke: rgba(90, 72, 52, 0.06); }
+      .edge-label { font: 600 10px 'Avenir Next', 'Segoe UI', sans-serif; fill: #6f675f; letter-spacing: 0.01em; text-anchor: middle; }
+      .region-label { font: 700 11px 'Avenir Next', 'Segoe UI', sans-serif; fill: #7a7168; letter-spacing: 0.08em; text-transform: uppercase; }
+      .node-card { stroke: rgba(65, 49, 34, 0.08); stroke-width: 1.2; }
+      .node-figure { fill: #eadcc7; }
+      .node-concept { fill: #dde5ef; }
+      .node-project { fill: #dce8dc; }
+      .node-kind { font: 700 9px 'Avenir Next', 'Segoe UI', sans-serif; fill: #7c736b; letter-spacing: 0.09em; text-transform: uppercase; }
+      .node-name { font: 700 15px 'Avenir Next', 'Segoe UI', sans-serif; fill: #1d1b19; }
+      .node-summary { font: italic 11.5px 'Iowan Old Style', Georgia, serif; fill: #544c45; }
+      .annotation-box { fill: rgba(255, 252, 245, 0.94); stroke: rgba(96, 74, 49, 0.06); }
+      .annotation { font: italic 13px 'Iowan Old Style', Georgia, serif; fill: #2a231b; }
+      .title { font: 700 28px 'Avenir Next', 'Segoe UI', sans-serif; fill: #1d1b19; letter-spacing: -0.02em; }
+      .subtitle { font: 500 12px 'Avenir Next', 'Segoe UI', sans-serif; fill: #6f675f; letter-spacing: 0.12em; text-transform: uppercase; }
+      .footer { font: 500 10px 'Avenir Next', 'Segoe UI', sans-serif; fill: #8d8479; letter-spacing: 0.08em; text-transform: uppercase; }
+    </style>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#7f756a" />
+    </marker>
+  </defs>
+
+  <rect class="paper" x="0" y="0" width="920" height="620" rx="22" />
+
+  <path class="contour" d="M 50 130 C 230 86, 460 86, 690 120 S 850 148, 890 138" />
+  <path class="contour" d="M 42 208 C 230 164, 470 160, 690 190 S 846 220, 888 212" />
+  <path class="contour" d="M 38 330 C 250 292, 470 296, 688 320 S 844 350, 884 344" />
+  <path class="contour" d="M 46 440 C 236 404, 470 404, 692 430 S 846 454, 890 446" />
+  <path class="contour" d="M 58 548 C 250 518, 470 518, 688 540 S 836 566, 878 560" />
+
+  <path class="region-fill" d="M 88 124 Q 240 90 455 92 Q 668 90 806 124 Q 834 188 806 274 Q 670 302 454 300 Q 236 302 100 274 Q 70 190 88 124 Z" />
+  <path class="region-line" d="M 92 128 Q 242 96 454 98 Q 664 96 800 128 Q 824 188 800 268 Q 668 294 454 292 Q 240 294 108 268 Q 82 190 92 128 Z" />
+  <text class="region-label" x="454" y="118" text-anchor="middle">Core Constellation</text>
+
+  <path class="region-fill" d="M 182 354 Q 342 330 555 334 Q 728 334 842 360 Q 866 448 836 528 Q 734 548 554 550 Q 364 550 220 534 Q 180 454 182 354 Z" />
+  <path class="region-line" d="M 188 360 Q 344 338 554 342 Q 724 342 834 366 Q 854 448 828 520 Q 730 540 554 542 Q 368 542 226 526 Q 192 454 188 360 Z" />
+  <text class="region-label" x="555" y="352" text-anchor="middle">Bridge to Design</text>
+
+  <path class="edge" marker-end="url(#arrow)" d="M 190 215 C 240 245, 265 330, 335 435" />
+  <path class="edge" marker-end="url(#arrow)" d="M 455 215 C 500 255, 548 340, 600 435" />
+  <path class="edge" marker-end="url(#arrow)" d="M 720 215 C 660 255, 520 332, 335 435" />
+  <path class="edge" marker-end="url(#arrow)" d="M 600 435 C 540 424, 408 424, 335 435" />
+  <path class="edge" marker-end="url(#arrow)" d="M 335 435 C 470 435, 700 435, 900 435" />
+  <path class="edge" marker-end="url(#arrow)" d="M 600 435 C 690 462, 790 450, 900 435" />
+  <path class="edge" marker-end="url(#arrow)" d="M 720 215 C 830 260, 910 330, 900 435" />
+
+  <rect class="edge-label-bg" x="235" y="314" width="64" height="18" rx="9" />
+  <text class="edge-label" x="267" y="326">calls for</text>
+
+  <rect class="edge-label-bg" x="496" y="324" width="60" height="18" rx="9" />
+  <text class="edge-label" x="526" y="336">clarifies</text>
+
+  <rect class="edge-label-bg" x="512" y="298" width="54" height="18" rx="9" />
+  <text class="edge-label" x="539" y="310">grounds</text>
+
+  <rect class="edge-label-bg" x="437" y="419" width="56" height="18" rx="9" />
+  <text class="edge-label" x="465" y="431">deepens</text>
+
+  <rect class="edge-label-bg" x="554" y="411" width="66" height="18" rx="9" />
+  <text class="edge-label" x="587" y="423">opens into</text>
+
+  <rect class="edge-label-bg" x="725" y="446" width="46" height="18" rx="9" />
+  <text class="edge-label" x="748" y="458">guides</text>
+
+  <rect class="edge-label-bg" x="818" y="305" width="92" height="18" rx="9" />
+  <text class="edge-label" x="864" y="317">justifies scaffolds</text>
+
+  <rect class="annotation-box" x="60" y="62" width="394" height="30" rx="15" />
+  <text class="annotation" x="76" y="81">The problem is not the screen alone, but representational monoculture.</text>
+
+  <rect class="annotation-box" x="460" y="560" width="318" height="30" rx="15" />
+  <text class="annotation" x="476" y="579">A humane medium supports the full ecology of knowing.</text>
+
+  <text class="title" x="58" y="36">Humane Representation and the Ecology of Knowing</text>
+  <text class="subtitle" x="58" y="54">Bret Victor, John Vervaeke, and Andy Clark</text>
+
+  <g transform="translate(190,215)">
+    <rect class="node-card node-figure" x="-105" y="-39" width="210" height="78" rx="22" />
+    <text class="node-kind" x="-88" y="-22">Figure</text>
+    <text class="node-name" x="-88" y="-2">Bret Victor</text>
+    <text class="node-summary" x="-88" y="16">Humane media and representation</text>
+    <text class="node-summary" x="-88" y="30">shape thinkability.</text>
+  </g>
+
+  <g transform="translate(455,215)">
+    <rect class="node-card node-figure" x="-105" y="-39" width="210" height="78" rx="22" />
+    <text class="node-kind" x="-88" y="-22">Figure</text>
+    <text class="node-name" x="-88" y="-2">John Vervaeke</text>
+    <text class="node-summary" x="-88" y="16">The ecology of knowing exceeds</text>
+    <text class="node-summary" x="-88" y="30">propositions alone.</text>
+  </g>
+
+  <g transform="translate(720,215)">
+    <rect class="node-card node-figure" x="-105" y="-39" width="210" height="78" rx="22" />
+    <text class="node-kind" x="-88" y="-22">Figure</text>
+    <text class="node-name" x="-88" y="-2">Andy Clark</text>
+    <text class="node-summary" x="-88" y="16">Mind extends through tools and</text>
+    <text class="node-summary" x="-88" y="30">scaffolds.</text>
+  </g>
+
+  <g transform="translate(335,435)">
+    <rect class="node-card node-concept" x="-105" y="-39" width="210" height="78" rx="22" />
+    <text class="node-kind" x="-88" y="-22">Concept</text>
+    <text class="node-name" x="-88" y="-2">Humane Medium</text>
+    <text class="node-summary" x="-88" y="16">A medium that recruits more of the</text>
+    <text class="node-summary" x="-88" y="30">human being into knowing.</text>
+  </g>
+
+  <g transform="translate(600,435)">
+    <rect class="node-card node-concept" x="-105" y="-39" width="210" height="78" rx="22" />
+    <text class="node-kind" x="-88" y="-22">Concept</text>
+    <text class="node-name" x="-88" y="-2">Ecology of Knowing</text>
+    <text class="node-summary" x="-88" y="16">Propositional, procedural,</text>
+    <text class="node-summary" x="-88" y="30">perspectival, participatory.</text>
+  </g>
+
+  <g transform="translate(900,435)">
+    <rect class="node-card node-project" x="-105" y="-39" width="210" height="78" rx="22" />
+    <text class="node-kind" x="-88" y="-22">Project</text>
+    <text class="node-name" x="-88" y="-2">Grasp Tools</text>
+    <text class="node-summary" x="-88" y="16">Mind extension without</text>
+    <text class="node-summary" x="-88" y="30">outsourcing.</text>
+  </g>
+
+  <text class="footer" x="58" y="606">Contour v0 · SVG communication artifact experiment</text>
+</svg>

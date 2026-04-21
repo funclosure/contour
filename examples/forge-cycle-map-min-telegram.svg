@@ -1,0 +1,93 @@
+<svg width="100%" viewBox="0 0 900 430" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">F.O.R.G.E.</title>
+  <desc id="desc">A concise map of the Find, Oppose, Refine, Ground, Embody cycle, with Optimal Grip as the resulting orientation.</desc>
+
+  <defs>
+    <style>
+      .paper { fill: #fbf8f2; }
+      .edge { fill: none; stroke: #7b7167; stroke-width: 1.8; opacity: 0.88; }
+      .edge-label { font: 600 10px 'DejaVu Sans', sans-serif; fill: #746b63; text-anchor: middle; }
+      .edge-label-bg { fill: rgba(251,248,242,0.96); stroke: rgba(90,72,52,0.05); }
+      .node-concept { fill: #dde5ef; }
+      .node-project { fill: #dce8dc; }
+      .node-claim { fill: #ece2f3; }
+      .node-card { stroke: rgba(63,49,36,0.08); stroke-width: 1.1; }
+      .kind { font: 700 8px 'DejaVu Sans', sans-serif; fill: #7a7168; }
+      .name { font: 700 14px 'DejaVu Sans', sans-serif; fill: #1e1b18; }
+      .summary { font: italic 11px 'DejaVu Serif', serif; fill: #564d45; }
+      .title { font: 700 22px 'DejaVu Sans', sans-serif; fill: #1d1b19; }
+      .subtitle { font: 500 10.5px 'DejaVu Sans', sans-serif; fill: #70685f; }
+      .annotation-box { fill: rgba(255,252,245,0.96); stroke: rgba(96,74,49,0.05); }
+      .annotation { font: italic 12px 'DejaVu Serif', serif; fill: #2b241c; }
+      .footer { font: 500 9px 'DejaVu Sans', sans-serif; fill: #8c8378; }
+    </style>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#7b7167" />
+    </marker>
+  </defs>
+
+  <rect class="paper" x="0" y="0" width="900" height="430" rx="18" />
+
+  <text class="title" x="38" y="34">F.O.R.G.E.</text>
+  <text class="subtitle" x="38" y="51">A co-learning cycle for human-AI sensemaking</text>
+
+  <path class="edge" marker-end="url(#arrow)" d="M 145 184 C 180 184, 215 184, 250 184" />
+  <path class="edge" marker-end="url(#arrow)" d="M 305 184 C 340 184, 375 184, 410 184" />
+  <path class="edge" marker-end="url(#arrow)" d="M 465 184 C 500 184, 535 184, 570 184" />
+  <path class="edge" marker-end="url(#arrow)" d="M 625 184 C 660 184, 695 184, 730 184" />
+  <path class="edge" marker-end="url(#arrow)" d="M 780 210 C 740 262, 625 304, 490 318" />
+  <path class="edge" marker-end="url(#arrow)" d="M 374 318 C 250 306, 150 262, 112 210" />
+
+  <rect class="edge-label-bg" x="594" y="260" width="44" height="18" rx="9" />
+  <text class="edge-label" x="616" y="272">yields</text>
+
+  <rect class="edge-label-bg" x="228" y="262" width="48" height="18" rx="9" />
+  <text class="edge-label" x="252" y="274">renews</text>
+
+  <g transform="translate(100,184)">
+    <rect class="node-card node-concept" x="-58" y="-28" width="116" height="56" rx="18" />
+    <text class="kind" x="-40" y="-13">Concept</text>
+    <text class="name" x="-40" y="6">Find</text>
+    <text class="summary" x="-40" y="22">Catalyst</text>
+  </g>
+
+  <g transform="translate(260,184)">
+    <rect class="node-card node-concept" x="-58" y="-28" width="116" height="56" rx="18" />
+    <text class="kind" x="-40" y="-13">Concept</text>
+    <text class="name" x="-40" y="6">Oppose</text>
+    <text class="summary" x="-40" y="22">Friction</text>
+  </g>
+
+  <g transform="translate(420,184)">
+    <rect class="node-card node-concept" x="-58" y="-28" width="116" height="56" rx="18" />
+    <text class="kind" x="-40" y="-13">Concept</text>
+    <text class="name" x="-40" y="6">Refine</text>
+    <text class="summary" x="-40" y="22">Synthesis</text>
+  </g>
+
+  <g transform="translate(580,184)">
+    <rect class="node-card node-concept" x="-58" y="-28" width="116" height="56" rx="18" />
+    <text class="kind" x="-40" y="-13">Concept</text>
+    <text class="name" x="-40" y="6">Ground</text>
+    <text class="summary" x="-40" y="22">Application</text>
+  </g>
+
+  <g transform="translate(740,184)">
+    <rect class="node-card node-project" x="-58" y="-28" width="116" height="56" rx="18" />
+    <text class="kind" x="-40" y="-13">Project</text>
+    <text class="name" x="-40" y="6">Embody</text>
+    <text class="summary" x="-40" y="22">Execution</text>
+  </g>
+
+  <g transform="translate(430,318)">
+    <rect class="node-card node-claim" x="-86" y="-30" width="172" height="60" rx="20" />
+    <text class="kind" x="-68" y="-14">Claim</text>
+    <text class="name" x="-68" y="6">Optimal Grip</text>
+    <text class="summary" x="-68" y="23">A better hold on meaning</text>
+  </g>
+
+  <rect class="annotation-box" x="184" y="370" width="470" height="28" rx="14" />
+  <text class="annotation" x="202" y="388">Learning becomes real when understanding changes how one can move.</text>
+
+  <text class="footer" x="38" y="408">Contour v0 · validation example for process-shaped inquiry</text>
+</svg>
