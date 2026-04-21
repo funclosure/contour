@@ -1,0 +1,139 @@
+{
+  "title": "Humane Representation and the Ecology of Knowing",
+  "subtitle": "Bret Victor, John Vervaeke, and Andy Clark",
+  "nodes": [
+    {
+      "id": "bret",
+      "label": "Bret Victor",
+      "kind": "figure",
+      "summary": "Humane media and representation shape thinkability.",
+      "x": 120,
+      "y": 140,
+      "reveal": "visible"
+    },
+    {
+      "id": "vervaeke",
+      "label": "John Vervaeke",
+      "kind": "figure",
+      "summary": "The ecology of knowing exceeds propositions alone.",
+      "x": 360,
+      "y": 140,
+      "reveal": "visible"
+    },
+    {
+      "id": "clark",
+      "label": "Andy Clark",
+      "kind": "figure",
+      "summary": "Mind extends through tools and scaffolds.",
+      "x": 600,
+      "y": 140,
+      "reveal": "visible"
+    },
+    {
+      "id": "humane-medium",
+      "label": "Humane Medium",
+      "kind": "concept",
+      "summary": "A medium that recruits more of the human being into knowing.",
+      "x": 240,
+      "y": 340,
+      "reveal": "visible"
+    },
+    {
+      "id": "ecology-of-knowing",
+      "label": "Ecology of Knowing",
+      "kind": "concept",
+      "summary": "Propositional, procedural, perspectival, and participatory knowing.",
+      "x": 480,
+      "y": 340,
+      "reveal": "visible"
+    },
+    {
+      "id": "grasp-tools",
+      "label": "Grasp Tools",
+      "kind": "project",
+      "summary": "Mind extension without outsourcing.",
+      "x": 360,
+      "y": 540,
+      "reveal": "visible"
+    }
+  ],
+  "edges": [
+    {
+      "from": "bret",
+      "to": "humane-medium",
+      "kind": "claims",
+      "label": "calls for"
+    },
+    {
+      "from": "vervaeke",
+      "to": "ecology-of-knowing",
+      "kind": "articulates",
+      "label": "clarifies"
+    },
+    {
+      "from": "clark",
+      "to": "humane-medium",
+      "kind": "supports",
+      "label": "grounds"
+    },
+    {
+      "from": "ecology-of-knowing",
+      "to": "humane-medium",
+      "kind": "refines",
+      "label": "deepens"
+    },
+    {
+      "from": "humane-medium",
+      "to": "grasp-tools",
+      "kind": "bridges",
+      "label": "opens into"
+    },
+    {
+      "from": "ecology-of-knowing",
+      "to": "grasp-tools",
+      "kind": "bridges",
+      "label": "guides"
+    },
+    {
+      "from": "clark",
+      "to": "grasp-tools",
+      "kind": "supports",
+      "label": "justifies scaffolds"
+    }
+  ],
+  "groups": [
+    {
+      "id": "core-triad",
+      "label": "Core constellation",
+      "members": ["bret", "vervaeke", "clark"],
+      "style": "region"
+    },
+    {
+      "id": "bridge-zone",
+      "label": "Bridge to design",
+      "members": ["humane-medium", "ecology-of-knowing", "grasp-tools"],
+      "style": "region"
+    }
+  ],
+  "annotations": [
+    {
+      "id": "note-1",
+      "text": "The problem is not the screen alone, but representational monoculture.",
+      "x": 90,
+      "y": 40,
+      "kind": "insight"
+    },
+    {
+      "id": "note-2",
+      "text": "A humane medium supports the full ecology of knowing.",
+      "x": 380,
+      "y": 430,
+      "kind": "insight"
+    }
+  ],
+  "view": {
+    "theme": "light",
+    "showSummaries": true,
+    "showEdgeLabels": true
+  }
+}
