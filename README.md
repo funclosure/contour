@@ -66,15 +66,36 @@ A likely early stack is:
 - SVG as visual grammar
 - PNG as optional export for chat delivery
 
-## Early success criteria
+## Structure
 
-Contour v0 succeeds if it can:
-- make thought more spatially graspable
-- remain easy to revise
-- avoid unnecessary visual clutter
-- preserve useful ambiguity where needed
-- help surface structure that plain chat alone does not make obvious
-- stay communicable in the medium actually being used
+Contour is evolving toward a **multi-skill repository**.
+
+The goal is not to imitate Superpowers' software-development methodology, but to borrow its modular structure: a repo that holds several reusable agent-facing capabilities, each with its own focused instructions and references.
+
+### Planned skill families
+
+- **contour-scene-authoring**: turn inquiry structure into editable scene representations
+- **contour-rendering**: transform scenes into SVG, PNG, and shareable artifacts
+- **contour-svg-validation**: check visual output against representational and delivery constraints
+- **contour-style-evolution**: preserve and refine Contour's visual language
+
+## Repository layout
+
+```text
+contour/
+  skills/
+    contour-scene-authoring/
+    contour-rendering/
+    contour-svg-validation/
+    contour-style-evolution/
+  docs/
+  examples/
+  index.html
+```
+
+The `docs/` folder remains the design and architecture reference layer.
+The `examples/` folder remains the artifact corpus.
+The new `skills/` layer is the agent-usable methodology layer.
 
 ## Relationship to Grasp Tools
 
