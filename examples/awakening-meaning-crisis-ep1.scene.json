@@ -1,0 +1,73 @@
+{
+  "title": "Awakening from the Meaning Crisis — Ep. 1",
+  "subtitle": "Symptoms, reframing, and the shape of the project",
+  "nodes": [
+    { "id": "sym-mhc",        "label": "mental-health crisis", "kind": "symptom", "x": 220, "y": 160 },
+    { "id": "sym-loneliness", "label": "loneliness",           "kind": "symptom", "x": 400, "y": 160 },
+    { "id": "sym-bullshit",   "label": "bullshit",             "kind": "symptom", "x": 540, "y": 160 },
+    { "id": "sym-fund",       "label": "fundamentalism",       "kind": "symptom", "x": 700, "y": 160 },
+    { "id": "sym-addiction",  "label": "addiction",            "kind": "symptom", "x": 860, "y": 160 },
+
+    { "id": "domicide", "label": "Domicide", "kind": "concept",
+      "summary": "unhomed in one's world", "x": 240, "y": 320 },
+
+    { "id": "meaning-crisis", "label": "The Meaning Crisis", "kind": "claim",
+      "summary": "the ground of our condition", "x": 550, "y": 320 },
+
+    { "id": "religio", "label": "Religio", "kind": "concept",
+      "summary": "severed binding, re-binding", "x": 860, "y": 320 },
+
+    { "id": "three-q", "label": "Three Questions", "kind": "claim",
+      "summary": "What is meaning? / How did we lose it? / How can we awaken?",
+      "x": 220, "y": 498 },
+
+    { "id": "method", "label": "Integrative Method", "kind": "concept",
+      "summary": "cognitive science × wisdom traditions",
+      "x": 550, "y": 498 },
+
+    { "id": "awakening", "label": "Awakening", "kind": "project",
+      "summary": "reconnection · wisdom · the sage",
+      "x": 880, "y": 498 }
+  ],
+  "edges": [
+    { "from": "sym-mhc",        "to": "meaning-crisis", "kind": "supports", "label": "manifest as" },
+    { "from": "sym-loneliness", "to": "meaning-crisis", "kind": "supports" },
+    { "from": "sym-bullshit",   "to": "meaning-crisis", "kind": "supports" },
+    { "from": "sym-fund",       "to": "meaning-crisis", "kind": "supports" },
+    { "from": "sym-addiction",  "to": "meaning-crisis", "kind": "supports" },
+
+    { "from": "meaning-crisis", "to": "domicide", "kind": "claims",   "label": "named as" },
+    { "from": "meaning-crisis", "to": "religio",  "kind": "claims",   "label": "reveals as" },
+
+    { "from": "meaning-crisis", "to": "three-q",   "kind": "bridges", "label": "opens the project" },
+    { "from": "three-q",        "to": "method",    "kind": "bridges", "label": "addressed by" },
+    { "from": "method",         "to": "awakening", "kind": "bridges", "label": "aims at" }
+  ],
+  "groups": [
+    {
+      "id": "symptoms",
+      "label": "Symptoms",
+      "members": ["sym-mhc", "sym-loneliness", "sym-bullshit", "sym-fund", "sym-addiction"],
+      "style": "region"
+    },
+    {
+      "id": "project",
+      "label": "The Project",
+      "members": ["three-q", "method", "awakening"],
+      "style": "region"
+    }
+  ],
+  "annotations": [
+    {
+      "id": "note-vervaeke",
+      "text": "The meaning crisis is what you feel when you no longer feel at home in the world.",
+      "x": 550, "y": 610,
+      "kind": "insight"
+    }
+  ],
+  "view": {
+    "theme": "light",
+    "showSummaries": true,
+    "showEdgeLabels": true
+  }
+}

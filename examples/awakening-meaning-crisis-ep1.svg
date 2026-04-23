@@ -1,0 +1,182 @@
+<svg width="100%" viewBox="0 0 1100 660" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Awakening from the Meaning Crisis — Ep. 1</title>
+  <desc id="desc">A diagnostic map of Episode 1: symptoms of the meaning crisis, its reframing as domicide and broken religio, and the shape of the project the series sets out to pursue.</desc>
+
+  <defs>
+    <style>
+      .paper { fill: #fbf8f2; }
+
+      .region { fill: rgba(221, 212, 192, 0.30); stroke: rgba(123, 106, 79, 0.18); stroke-width: 0.8; }
+      .region-project { fill: rgba(207, 214, 197, 0.22); stroke: rgba(101, 115, 88, 0.18); stroke-width: 0.8; }
+      .region-label { font: 700 10px 'DejaVu Sans', sans-serif; fill: #7a6c5c; letter-spacing: 1.2px; }
+
+      .edge { fill: none; stroke: #8a7e70; stroke-width: 1.5; opacity: 0.80; }
+      .edge-strong { fill: none; stroke: #5a4e41; stroke-width: 2.2; opacity: 0.94; }
+      .edge-faint { fill: none; stroke: #a89e90; stroke-width: 1.1; opacity: 0.55; }
+      .edge-label { font: 600 10px 'DejaVu Sans', sans-serif; fill: #6a6158; text-anchor: middle; }
+      .edge-label-bg { fill: rgba(251,248,242,0.96); stroke: rgba(90,72,52,0.05); }
+
+      .node-concept { fill: #dde5ef; }
+      .node-project { fill: #dce8dc; }
+      .node-claim   { fill: #ece2f3; }
+      .node-claim-lg { fill: #e4d5f0; }
+      .node-symptom { fill: #efe5d6; }
+      .node-card { stroke: rgba(63,49,36,0.10); stroke-width: 1.1; }
+
+      .kind     { font: 700 8px 'DejaVu Sans', sans-serif; fill: #7a7168; letter-spacing: 0.6px; }
+      .name     { font: 700 14px 'DejaVu Sans', sans-serif; fill: #1e1b18; }
+      .name-lg  { font: 700 18px 'DejaVu Sans', sans-serif; fill: #1e1b18; }
+      .summary  { font: italic 11px 'DejaVu Serif', serif; fill: #564d45; }
+      .symptom-tag { font: 600 11px 'DejaVu Sans', sans-serif; fill: #3a322a; text-anchor: middle; }
+
+      .title    { font: 700 22px 'DejaVu Sans', sans-serif; fill: #1d1b19; }
+      .subtitle { font: 500 10.5px 'DejaVu Sans', sans-serif; fill: #70685f; }
+
+      .annotation-box { fill: rgba(255,252,245,0.96); stroke: rgba(96,74,49,0.05); }
+      .annotation     { font: italic 12px 'DejaVu Serif', serif; fill: #2b241c; text-anchor: middle; }
+
+      .footer { font: 500 9px 'DejaVu Sans', sans-serif; fill: #8c8378; }
+    </style>
+
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#8a7e70" />
+    </marker>
+    <marker id="arrow-strong" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#5a4e41" />
+    </marker>
+    <marker id="arrow-faint" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#a89e90" />
+    </marker>
+  </defs>
+
+  <rect class="paper" x="0" y="0" width="1100" height="660" rx="18" />
+
+  <!-- Title -->
+  <text class="title" x="40" y="44">Awakening from the Meaning Crisis — Ep. 1</text>
+  <text class="subtitle" x="40" y="64">Symptoms, reframing, and the shape of the project</text>
+
+  <!-- =================== Zone 1: Symptoms =================== -->
+  <rect class="region" x="80" y="100" width="940" height="110" rx="20" />
+  <text class="region-label" x="100" y="122">SYMPTOMS</text>
+
+  <g transform="translate(220,162)">
+    <rect class="node-card node-symptom" x="-80" y="-18" width="160" height="36" rx="18" />
+    <text class="symptom-tag" x="0" y="5">mental-health crisis</text>
+  </g>
+  <g transform="translate(400,162)">
+    <rect class="node-card node-symptom" x="-58" y="-18" width="116" height="36" rx="18" />
+    <text class="symptom-tag" x="0" y="5">loneliness</text>
+  </g>
+  <g transform="translate(540,162)">
+    <rect class="node-card node-symptom" x="-48" y="-18" width="96" height="36" rx="18" />
+    <text class="symptom-tag" x="0" y="5">bullshit</text>
+  </g>
+  <g transform="translate(700,162)">
+    <rect class="node-card node-symptom" x="-70" y="-18" width="140" height="36" rx="18" />
+    <text class="symptom-tag" x="0" y="5">fundamentalism</text>
+  </g>
+  <g transform="translate(860,162)">
+    <rect class="node-card node-symptom" x="-48" y="-18" width="96" height="36" rx="18" />
+    <text class="symptom-tag" x="0" y="5">addiction</text>
+  </g>
+
+  <!-- Faint converging lines from symptoms down toward Meaning Crisis (suggest "manifest as") -->
+  <path class="edge-faint" d="M 220 180 C 300 220, 420 240, 500 268" />
+  <path class="edge-faint" d="M 400 180 C 450 220, 500 250, 530 268" />
+  <path class="edge-faint" d="M 540 180 C 545 220, 548 250, 550 268" />
+  <path class="edge-faint" d="M 700 180 C 640 220, 590 250, 570 268" />
+  <path class="edge-faint" d="M 860 180 C 760 220, 650 245, 600 268" />
+
+  <!-- Prominent labeled descent -->
+  <path class="edge-strong" marker-end="url(#arrow-strong)" d="M 550 210 C 550 230, 550 250, 550 270" />
+  <rect class="edge-label-bg" x="562" y="226" width="80" height="18" rx="9" />
+  <text class="edge-label" x="602" y="238">manifest as</text>
+
+  <!-- =================== Zone 2: The Name / Reframe =================== -->
+
+  <!-- Domicide (left flank) -->
+  <g transform="translate(240,320)">
+    <rect class="node-card node-concept" x="-100" y="-36" width="200" height="72" rx="22" />
+    <text class="kind"    x="-82" y="-17">CONCEPT</text>
+    <text class="name"    x="-82" y="4">Domicide</text>
+    <text class="summary" x="-82" y="22">unhomed in one's world</text>
+  </g>
+
+  <!-- Meaning Crisis (center, larger) -->
+  <g transform="translate(550,320)">
+    <rect class="node-card node-claim-lg" x="-140" y="-50" width="280" height="100" rx="24" />
+    <text class="kind"    x="-116" y="-26">CLAIM</text>
+    <text class="name-lg" x="-116" y="2">The Meaning Crisis</text>
+    <text class="summary" x="-116" y="26">the ground of our condition</text>
+  </g>
+
+  <!-- Religio (right flank) -->
+  <g transform="translate(860,320)">
+    <rect class="node-card node-concept" x="-100" y="-36" width="200" height="72" rx="22" />
+    <text class="kind"    x="-82" y="-17">CONCEPT</text>
+    <text class="name"    x="-82" y="4">Religio</text>
+    <text class="summary" x="-82" y="22">severed binding, re-binding</text>
+  </g>
+
+  <!-- Edges: Meaning Crisis ↔ Domicide -->
+  <path class="edge" marker-end="url(#arrow)" d="M 410 320 C 390 320, 370 320, 342 320" />
+  <rect class="edge-label-bg" x="346" y="300" width="54" height="18" rx="9" />
+  <text class="edge-label" x="373" y="312">named as</text>
+
+  <!-- Edges: Meaning Crisis ↔ Religio -->
+  <path class="edge" marker-end="url(#arrow)" d="M 690 320 C 710 320, 730 320, 758 320" />
+  <rect class="edge-label-bg" x="700" y="300" width="58" height="18" rx="9" />
+  <text class="edge-label" x="729" y="312">reveals as</text>
+
+  <!-- =================== Zone 3: The Project =================== -->
+  <rect class="region-project" x="80" y="448" width="940" height="104" rx="20" />
+  <text class="region-label" x="100" y="470">THE PROJECT</text>
+
+  <!-- Arrow from Meaning Crisis down-left into the project zone, landing on Three Questions -->
+  <path class="edge-strong" marker-end="url(#arrow-strong)" d="M 470 370 C 390 400, 290 420, 220 494" />
+  <rect class="edge-label-bg" x="308" y="398" width="108" height="18" rx="9" />
+  <text class="edge-label" x="362" y="410">opens the project</text>
+
+  <!-- Three Questions (left) -->
+  <g transform="translate(220,510)">
+    <rect class="node-card node-claim" x="-120" y="-38" width="240" height="76" rx="22" />
+    <text class="kind"    x="-98" y="-19">CLAIM</text>
+    <text class="name"    x="-98" y="-2">Three Questions</text>
+    <text class="summary" x="-98" y="16">What? · How lost? ·</text>
+    <text class="summary" x="-98" y="30">How awaken?</text>
+  </g>
+
+  <!-- Method (center) -->
+  <g transform="translate(550,510)">
+    <rect class="node-card node-concept" x="-120" y="-38" width="240" height="76" rx="22" />
+    <text class="kind"    x="-98" y="-19">CONCEPT</text>
+    <text class="name"    x="-98" y="-2">Integrative Method</text>
+    <text class="summary" x="-98" y="16">cognitive science ×</text>
+    <text class="summary" x="-98" y="30">wisdom traditions</text>
+  </g>
+
+  <!-- Awakening (right) -->
+  <g transform="translate(880,510)">
+    <rect class="node-card node-project" x="-120" y="-38" width="240" height="76" rx="22" />
+    <text class="kind"    x="-98" y="-19">PROJECT</text>
+    <text class="name"    x="-98" y="-2">Awakening</text>
+    <text class="summary" x="-98" y="16">reconnection · wisdom ·</text>
+    <text class="summary" x="-98" y="30">the sage</text>
+  </g>
+
+  <!-- Edges within Zone 3 -->
+  <path class="edge" marker-end="url(#arrow)" d="M 340 510 C 365 510, 395 510, 428 510" />
+  <rect class="edge-label-bg" x="348" y="490" width="76" height="18" rx="9" />
+  <text class="edge-label" x="386" y="502">addressed by</text>
+
+  <path class="edge" marker-end="url(#arrow)" d="M 670 510 C 700 510, 732 510, 758 510" />
+  <rect class="edge-label-bg" x="688" y="490" width="52" height="18" rx="9" />
+  <text class="edge-label" x="714" y="502">aims at</text>
+
+  <!-- Annotation -->
+  <rect class="annotation-box" x="150" y="596" width="800" height="28" rx="14" />
+  <text class="annotation" x="550" y="614">The meaning crisis is what you feel when you no longer feel at home in the world.</text>
+
+  <!-- Footer -->
+  <text class="footer" x="40" y="650">Contour scene · Awakening from the Meaning Crisis — Ep. 1</text>
+</svg>
