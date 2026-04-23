@@ -83,13 +83,16 @@ These are better metaphors than:
 
 ## Known Limitations & Next Steps
 
-The shift to an automated layout engine (ELK) introduced immense structural clarity but brought a new challenge: **algorithmic rigidity**. 
-Because layered layout algorithms optimize for straight paths and minimal crossings, they often produce symmetric, highly vertical, org-chart-like grids. 
+The shift to an automated layout engine (ELK) introduced immense structural clarity but brought a new challenge: **algorithmic rigidity and semantic flatness**. 
 
-To push Contour closer to organic "terrain," future iterations should explore:
-1. **Force-directed layouts** to break the strict grid and create organic, clustered constellations.
-2. **Asymmetric authoring** in the scene model to naturally disrupt forced symmetry.
-3. **Blobby / contoured region envelopes** instead of strict rounded rectangles, so groups feel like topography rather than swimming lanes.
+Because layered layout algorithms optimize for straight paths and minimal crossings, they space everything evenly. They treat a massive conceptual pivot exactly the same as a minor sub-point.
+
+To push Contour closer to a true map of thought, future iterations must introduce **Semantic Gravity**:
+1. **Node Weight (`weight: 1-5`)**: Allow the scene model to declare the conceptual importance of a node. The renderer will translate this into larger typography, thicker brush strokes, and larger spatial padding (gravity) to push lesser nodes away.
+2. **Edge Tension (`tension: tight | loose`)**: Move beyond uniform bezier curves. Allow edges to pull nodes closer together or push them further apart based on the semantic relationship.
+3. **Implicit Affinity**: Instead of relying solely on explicit group boundary boxes, use ELK's partitioning features to naturally cluster nodes with the same semantic `affinity` tag.
+
+By passing this subtle semantic data from the assistant down to the renderer, Contour can visually express the *weight* of an idea, not just its topology.
 
 ## Typography direction
 
