@@ -9,12 +9,12 @@ The visual design needs to support understanding, revision, and orientation, whi
 
 ## Chosen direction
 
-**Topographic-cartographic with editorial restraint**
+**Topographic and handwritten with editorial restraint**
 
 This means:
 - the scene should feel like an inquiry landscape rather than a software dashboard
 - regions should feel more like terrain than dashed admin boxes
-- labels should feel intentional and readable, not machine-spat
+- node labels are not trapped in bounding boxes; they sit on the canvas, anchored by highlighter-style brush strokes
 - composition should preserve white space and hierarchy
 - the overall tone should be calm, thoughtful, and slightly tactile
 
@@ -45,34 +45,32 @@ Contour v0 is not a product UI. It is a thinking surface.
 
 ## Visual principles
 
-### 1. Terrain over container
-Groups should feel like regions or fields, not just boxes around things.
-Contours, soft boundaries, and layered depth are preferable to standard paneling.
+### 1. Text over container
+Nodes are driven by their typography, not by the box they sit in.
+A thick, colored brush stroke anchors the label without trapping it in a rectangle.
 
-### 2. Hierarchy over uniformity
+### 2. Terrain over rigid grid
+Groups should feel like regions or fields.
+Edges use rounded orthogonal routing (splines with tight corner radii) to balance structural clarity with organic flow.
+
+### 3. Hierarchy over uniformity
 Not everything should have equal visual weight.
 The eye should know where to land first, then where to move next.
 
-### 3. Labels as landmarks
+### 4. Labels as landmarks
 Important concepts and figures should feel like named landmarks in a territory.
 Typography should support orientation, not just rendering.
 
-### 4. Quiet richness
+### 5. Quiet richness
 The design should contain subtle character without becoming visually noisy.
 The goal is invitation, not spectacle.
-
-### 5. Legibility is sacred
-This is a medium for thought.
-Any stylistic move that makes relations harder to see has failed, no matter how beautiful it is.
 
 ## Material vocabulary
 
 Contour should gradually explore a visual language made of:
 - regions
-- contours
-- paths
-- landmarks
-- bridges
+- smooth paths
+- brush-stroke landmarks
 - notes
 - reveal states
 
