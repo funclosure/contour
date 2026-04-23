@@ -1,6 +1,6 @@
 {
   "name": "contour",
-  "version": "1.0.0",
+  "version": "0.2.0",
   "description": "*A co-thinking visual engine for graspable inquiry*",
   "main": "index.js",
   "directories": {
