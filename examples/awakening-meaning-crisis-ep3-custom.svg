@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100%" viewBox="0 0 1200 980" xmlns="http://www.w3.org/2000/svg" role="img">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#f8f3ea" /><stop offset="100%" stop-color="#f4efe6" /></linearGradient>
+  </defs>
+  <rect x="0" y="0" width="1200" height="980" fill="url(#bg)" />
+  <rect x="20" y="18" width="1160" height="72" rx="18" fill="rgba(255,255,255,0.58)" stroke="rgba(96,74,49,0.08)" />
+  <text x="40" y="52" font-family="Avenir Next, Segoe UI, sans-serif" font-size="28" font-weight="700" fill="#1d1b19">Awakening from the Meaning Crisis — Ep. 3</text>
+  <text x="40" y="76" font-family="Avenir Next, Segoe UI, sans-serif" font-size="14" fill="#6f675f">Continuous Cosmos, the Two Worlds Mythology, and the Modern Mismatch</text>
+
+
+      <rect x="288.2203581716399" y="250.45981713463925" width="474.93977641643664" height="611.5705593468066" rx="26.847412660386407" fill="rgba(210, 192, 170, 0.11)" stroke="rgba(124, 105, 85, 0.18)" stroke-width="2" stroke-dasharray="12 8" />
+      <text x="312.2203581716399" y="274.45981713463925" font-family="Avenir Next, Segoe UI, sans-serif" font-size="13" font-weight="700" letter-spacing="0.08em" text-transform="uppercase" fill="#6f675f">The Axial Structure</text>
+    
+
+      <rect x="541.6321573341567" y="395.0832385541804" width="371.51859474442335" height="317.0124935791267" rx="30.150121853364876" fill="rgba(210, 192, 170, 0.11)" stroke="rgba(124, 105, 85, 0.18)" stroke-width="2" stroke-dasharray="12 8" />
+      <text x="565.6321573341567" y="419.0832385541804" font-family="Avenir Next, Segoe UI, sans-serif" font-size="13" font-weight="700" letter-spacing="0.08em" text-transform="uppercase" fill="#6f675f">The Crisis</text>
+    
+<path d="M 599.6772676526392 217.80077308786775 C 599.6772676526392 254.1302951112535, 598.6601345880765 254.1302951112535, 598.6601345880765 300.45981713463925" fill="none" stroke="#7f756a" stroke-width="2.2" opacity="0.6" />
+
+      <rect x="559.1687011203578" y="242.1302951112535" width="80" height="24" rx="12" fill="#f4efe6" opacity="0.9" />
+      <text x="599.1687011203578" y="258.13029511125353" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="11" font-weight="600" fill="#6f675f">shattered by</text>
+    
+<path d="M 598.6601345880765 370.45981713463925 C 598.6601345880765 407.24205279225305, 447.2203581716399 407.24205279225305, 447.2203581716399 454.02428844986684" fill="none" stroke="#7f756a" stroke-width="2.2" opacity="0.6" />
+<path d="M 598.6601345880765 370.45981713463925 C 598.6601345880765 556.2450968080425, 597.3067022791174 556.2450968080425, 597.3067022791174 752.0303764814458" fill="none" stroke="#7f756a" stroke-width="2.2" opacity="0.6" />
+<path d="M 447.2203581716399 524.0242884498668 C 447.2203581716399 557.8940739665354, 447.87418452577214 557.8940739665354, 447.87418452577214 601.763859483204" fill="none" stroke="#7f756a" stroke-width="2.2" opacity="0.6" />
+
+      <rect x="407.547271348706" y="545.8940739665354" width="80" height="24" rx="12" fill="#f4efe6" opacity="0.9" />
+      <text x="447.547271348706" y="561.8940739665354" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="11" font-weight="600" fill="#6f675f">departs from</text>
+    
+<path d="M 447.87418452577214 671.763859483204 C 447.87418452577214 706.897117982325, 597.3067022791174 706.897117982325, 597.3067022791174 752.0303764814458" fill="none" stroke="#7f756a" stroke-width="2.2" opacity="0.6" />
+
+      <rect x="482.59044340244475" y="694.897117982325" width="80" height="24" rx="12" fill="#f4efe6" opacity="0.9" />
+      <text x="522.5904434024447" y="710.897117982325" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="11" font-weight="600" fill="#6f675f">ascends toward</text>
+    
+<path d="M 598.6601345880765 370.45981713463925 C 598.6601345880765 402.77152784440983, 743.15075207858 402.77152784440983, 743.15075207858 445.0832385541804" fill="none" stroke="#7f756a" stroke-width="2.2" opacity="0.6" />
+
+      <rect x="630.9054433333283" y="390.77152784440983" width="80" height="24" rx="12" fill="#f4efe6" opacity="0.9" />
+      <text x="670.9054433333283" y="406.77152784440983" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="11" font-weight="600" fill="#6f675f">dismantled by</text>
+    
+<path d="M 743.15075207858 515.0832385541804 C 743.15075207858 553.5894853437437, 706.1321573341567 553.5894853437437, 706.1321573341567 602.0957321333071" fill="none" stroke="#7f756a" stroke-width="2.2" opacity="0.6" />
+
+      <rect x="684.6414547063683" y="541.5894853437437" width="80" height="24" rx="12" fill="#f4efe6" opacity="0.9" />
+      <text x="724.6414547063683" y="557.5894853437437" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="11" font-weight="600" fill="#6f675f">causes</text>
+    
+<path d="M 581.6321573341567 632.0957321333071 C 80 632.0957321333071, 80 177.80077308786775, 486.1772676526392 177.80077308786775" fill="none" stroke="#7f756a" stroke-width="2.2" opacity="0.6" />
+
+      <rect x="80" y="392.9482526105875" width="80" height="24" rx="12" fill="#f4efe6" opacity="0.9" />
+      <text x="120" y="408.9482526105875" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="11" font-weight="600" fill="#6f675f">ironic return to</text>
+    
+
+    <g>
+      <path d="M 486.1772676526392 191.80077308786775 Q 599.6772676526392 194.80077308786775 713.1772676526392 189.80077308786775" fill="none" stroke="#c4d4e6" stroke-width="26" stroke-linecap="round" opacity="0.85" />
+      <text x="599.6772676526392" y="169.80077308786775" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="10" font-weight="700" letter-spacing="0.1em" fill="#6f675f">CONCEPT</text>
+      <text x="599.6772676526392" y="197.80077308786775" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="20" font-weight="700" fill="#1d1b19">Continuous Cosmos</text>
+      <text x="599.6772676526392" y="221.80077308786775" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">the ancient unified world of</text><text x="599.6772676526392" y="237.80077308786775" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">cycles, power, and fitting in</text>
+    </g>
+  
+
+    <g>
+      <path d="M 474.1601345880765 344.45981713463925 Q 598.6601345880765 347.45981713463925 723.1601345880765 342.45981713463925" fill="none" stroke="#dfccee" stroke-width="26" stroke-linecap="round" opacity="0.85" />
+      <text x="598.6601345880765" y="322.45981713463925" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="10" font-weight="700" letter-spacing="0.1em" fill="#6f675f">CLAIM</text>
+      <text x="598.6601345880765" y="350.45981713463925" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="20" font-weight="700" fill="#1d1b19">Two-World Mythology</text>
+      <text x="598.6601345880765" y="374.45981713463925" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">the Axial split of reality into</text><text x="598.6601345880765" y="390.45981713463925" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">two distinct realms</text>
+    </g>
+  
+
+    <g>
+      <path d="M 328.2203581716399 498.02428844986684 Q 447.2203581716399 501.02428844986684 566.2203581716399 496.02428844986684" fill="none" stroke="#e3cdbe" stroke-width="26" stroke-linecap="round" opacity="0.85" />
+      <text x="447.2203581716399" y="476.02428844986684" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="10" font-weight="700" letter-spacing="0.1em" fill="#6f675f">SYMPTOM</text>
+      <text x="447.2203581716399" y="504.02428844986684" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="20" font-weight="700" fill="#1d1b19">The Everyday World</text>
+      <text x="447.2203581716399" y="528.0242884498668" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">the realm of illusion, flaw, and</text><text x="447.2203581716399" y="544.0242884498668" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">appearance</text>
+    </g>
+  
+
+    <g>
+      <path d="M 500.3067022791174 796.0303764814458 Q 597.3067022791174 799.0303764814458 694.3067022791174 794.0303764814458" fill="none" stroke="#c4d4e6" stroke-width="26" stroke-linecap="round" opacity="0.85" />
+      <text x="597.3067022791174" y="774.0303764814458" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="10" font-weight="700" letter-spacing="0.1em" fill="#6f675f">CONCEPT</text>
+      <text x="597.3067022791174" y="802.0303764814458" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="20" font-weight="700" fill="#1d1b19">The Real World</text>
+      <text x="597.3067022791174" y="826.0303764814458" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">the realm of truth,</text><text x="597.3067022791174" y="842.0303764814458" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">flawlessness, and ultimate</text>
+    </g>
+  
+
+    <g>
+      <path d="M 367.37418452577214 645.763859483204 Q 447.87418452577214 648.763859483204 528.3741845257721 643.763859483204" fill="none" stroke="#eadcc7" stroke-width="26" stroke-linecap="round" opacity="0.85" />
+      <text x="447.87418452577214" y="623.763859483204" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="10" font-weight="700" letter-spacing="0.1em" fill="#6f675f">FIGURE</text>
+      <text x="447.87418452577214" y="651.763859483204" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="20" font-weight="700" fill="#1d1b19">The Pilgrim</text>
+      <text x="447.87418452577214" y="675.763859483204" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">the seeker of self-transcendence</text><text x="447.87418452577214" y="691.763859483204" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">cutting through illusion</text>
+    </g>
+  
+
+    <g>
+      <path d="M 613.15075207858 489.0832385541804 Q 743.15075207858 492.0832385541804 873.15075207858 487.0832385541804" fill="none" stroke="#c6dbc6" stroke-width="26" stroke-linecap="round" opacity="0.85" />
+      <text x="743.15075207858" y="467.0832385541804" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="10" font-weight="700" letter-spacing="0.1em" fill="#6f675f">PROJECT</text>
+      <text x="743.15075207858" y="495.0832385541804" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="20" font-weight="700" fill="#1d1b19">Scientific Worldview</text>
+      <text x="743.15075207858" y="519.0832385541804" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">collapses the Two Worlds,</text><text x="743.15075207858" y="535.0832385541804" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">returning us to a flat</text>
+    </g>
+  
+
+    <g>
+      <path d="M 581.6321573341567 646.0957321333071 Q 706.1321573341567 649.0957321333071 830.6321573341567 644.0957321333071" fill="none" stroke="#dfccee" stroke-width="26" stroke-linecap="round" opacity="0.85" />
+      <text x="706.1321573341567" y="624.0957321333071" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="10" font-weight="700" letter-spacing="0.1em" fill="#6f675f">CLAIM</text>
+      <text x="706.1321573341567" y="652.0957321333071" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="20" font-weight="700" fill="#1d1b19">The Modern Mismatch</text>
+      <text x="706.1321573341567" y="676.0957321333071" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">using Axial grammar in a world</text><text x="706.1321573341567" y="692.0957321333071" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">where the 'Real World' ceiling</text>
+    </g>
+  
+
+      <rect x="300" y="900" width="600" height="40" rx="12" fill="rgba(255, 252, 245, 0.94)" stroke="rgba(96,74,49,0.06)" />
+      <text x="600" y="925" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="15" fill="#1d1b19">We are trapped using the meaning-making grammar of the Two Worlds to navigate a flattened cosmos.</text>
+    
+</svg>

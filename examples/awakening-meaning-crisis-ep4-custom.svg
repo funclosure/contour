@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100%" viewBox="0 0 1400 1580" xmlns="http://www.w3.org/2000/svg" role="img">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#f8f3ea" /><stop offset="100%" stop-color="#f4efe6" /></linearGradient>
+  </defs>
+  <rect x="0" y="0" width="1400" height="1580" fill="url(#bg)" />
+  <rect x="20" y="18" width="1360" height="72" rx="18" fill="rgba(255,255,255,0.58)" stroke="rgba(96,74,49,0.08)" />
+  <text x="40" y="52" font-family="Avenir Next, Segoe UI, sans-serif" font-size="28" font-weight="700" fill="#1d1b19">Awakening from the Meaning Crisis — Ep. 4</text>
+  <text x="40" y="76" font-family="Avenir Next, Segoe UI, sans-serif" font-size="14" fill="#6f675f">Socrates, Aporia, and the decoupling of Truth and Relevance</text>
+
+
+      <rect x="318.32104479520405" y="101.09564369579527" width="761.233371683579" height="561.3334555637254" rx="30.039562285729794" fill="rgba(210, 192, 170, 0.11)" stroke="rgba(124, 105, 85, 0.18)" stroke-width="2" stroke-dasharray="12 8" />
+      <text x="342.32104479520405" y="125.09564369579527" font-family="Avenir Next, Segoe UI, sans-serif" font-size="13" font-weight="700" letter-spacing="0.08em" text-transform="uppercase" fill="#6f675f">The Decoupled Traps</text>
+    
+
+      <rect x="531.4939709684847" y="700.5971838837787" width="340" height="762.0477965509564" rx="33.47224962156489" fill="rgba(210, 192, 170, 0.11)" stroke="rgba(124, 105, 85, 0.18)" stroke-width="2" stroke-dasharray="12 8" />
+      <text x="555.4939709684847" y="724.5971838837787" font-family="Avenir Next, Segoe UI, sans-serif" font-size="13" font-weight="700" letter-spacing="0.08em" text-transform="uppercase" fill="#6f675f">The Socratic Path</text>
+    
+<path d="M 531.1507797546834 226.09564369579527 C 531.1507797546834 305.50857194105726, 488.32104479520405 254.11288998968203, 488.32104479520405 343.525818234944" fill="none" stroke="#7f756a" stroke-width="2.2" opacity="0.6" />
+
+      <rect x="475.23591227494376" y="267.81073096536966" width="69" height="24" rx="12" fill="#f4efe6" opacity="0.95" stroke="rgba(96,74,49,0.05)" />
+      <text x="509.73591227494376" y="283.81073096536966" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="11" font-weight="600" fill="#6f675f">produce</text>
+    
+<path d="M 911.4637630618581 227.89426440292806 C 911.4637630618581 283.9328346725897, 909.5544164787831 281.6416187728996, 909.5544164787831 347.6801890425612" fill="none" stroke="#7f756a" stroke-width="2.2" opacity="0.6" />
+
+      <rect x="876.0090897703205" y="270.78722672274466" width="69" height="24" rx="12" fill="#f4efe6" opacity="0.95" stroke="rgba(96,74,49,0.05)" />
+      <text x="910.5090897703205" y="286.78722672274466" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="11" font-weight="600" fill="#6f675f">produce</text>
+    
+<path d="M 488.32104479520405 423.525818234944 C 488.32104479520405 609.2305381166505, 702.909510410901 351.7243793778141, 702.909510410901 547.4290992595206" fill="none" stroke="#7f756a" stroke-width="2.2" opacity="0.6" />
+<path d="M 909.5544164787831 427.6801890425612 C 909.5544164787831 606.5415877917701, 702.909510410901 358.5677005103117, 702.909510410901 547.4290992595206" fill="none" stroke="#7f756a" stroke-width="2.2" opacity="0.6" />
+<path d="M 702.909510410901 627.4290992595206 C 702.909510410901 681.749453388681, 702.5156573825153 681.2768297546182, 702.5156573825153 745.5971838837787" fill="none" stroke="#7f756a" stroke-width="2.2" opacity="0.6" />
+
+      <rect x="647.2125838967081" y="669.5131415716496" width="111" height="24" rx="12" fill="#f4efe6" opacity="0.95" stroke="rgba(96,74,49,0.05)" />
+      <text x="702.7125838967081" y="685.5131415716496" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="11" font-weight="600" fill="#6f675f">confronted by</text>
+    
+<path d="M 702.5156573825153 825.5971838837787 C 702.5156573825153 881.3976109662768, 701.4939709684847 880.1715872694402, 701.4939709684847 945.9720143519384" fill="none" stroke="#7f756a" stroke-width="2.2" opacity="0.6" />
+
+      <rect x="667.5048141755001" y="868.7845991178585" width="69" height="24" rx="12" fill="#f4efe6" opacity="0.95" stroke="rgba(96,74,49,0.05)" />
+      <text x="702.0048141755001" y="884.7845991178585" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="11" font-weight="600" fill="#6f675f">deploys</text>
+    
+<path d="M 701.4939709684847 1025.9720143519385 C 701.4939709684847 1079.8979956543658, 701.8160656869286 1079.5114819922333, 701.8160656869286 1143.4374632946608" fill="none" stroke="#7f756a" stroke-width="2.2" opacity="0.6" />
+
+      <rect x="667.1550183277067" y="1067.7047388232995" width="69" height="24" rx="12" fill="#f4efe6" opacity="0.95" stroke="rgba(96,74,49,0.05)" />
+      <text x="701.6550183277067" y="1083.7047388232995" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="11" font-weight="600" fill="#6f675f">induces</text>
+    
+<path d="M 701.8160656869286 1223.4374632946608 C 701.8160656869286 1282.0573657402558, 699.2891592276654 1279.02507798914, 699.2891592276654 1347.644980434735" fill="none" stroke="#7f756a" stroke-width="2.2" opacity="0.6" />
+
+      <rect x="641.5526124572971" y="1268.541221864698" width="118" height="24" rx="12" fill="#f4efe6" opacity="0.95" stroke="rgba(96,74,49,0.05)" />
+      <text x="700.5526124572971" y="1284.541221864698" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="11" font-weight="600" fill="#6f675f">makes possible</text>
+    
+<path d="M 752.2891592276654 1382.644980434735 C 1280 1382.644980434735, 1280 582.4290992595206, 799.909510410901 582.4290992595206" fill="none" stroke="#7f756a" stroke-width="2.2" opacity="0.6" />
+
+      <rect x="1198.5" y="970.5370398471279" width="83" height="24" rx="12" fill="#f4efe6" opacity="0.95" stroke="rgba(96,74,49,0.05)" />
+      <text x="1240" y="986.5370398471279" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="11" font-weight="600" fill="#6f675f">overcomes</text>
+    
+
+    <g>
+      <path d="M 401.1507797546834 195.09564369579527 Q 531.1507797546834 198.09564369579527 661.1507797546834 193.09564369579527" fill="none" stroke="#eadcc7" stroke-width="26" stroke-linecap="round" opacity="0.85" />
+      <text x="531.1507797546834" y="173.09564369579527" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="10" font-weight="700" letter-spacing="0.1em" fill="#6f675f">FIGURE</text>
+      <text x="531.1507797546834" y="201.09564369579527" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="20" font-weight="700" fill="#1d1b19">Natural Philosophers</text>
+      <text x="531.1507797546834" y="225.09564369579527" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">seeking objective facts about</text><text x="531.1507797546834" y="241.09564369579527" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">the physical world</text>
+    </g>
+  
+
+    <g>
+      <path d="M 825.4637630618581 196.89426440292806 Q 911.4637630618581 199.89426440292806 997.4637630618581 194.89426440292806" fill="none" stroke="#eadcc7" stroke-width="26" stroke-linecap="round" opacity="0.85" />
+      <text x="911.4637630618581" y="174.89426440292806" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="10" font-weight="700" letter-spacing="0.1em" fill="#6f675f">FIGURE</text>
+      <text x="911.4637630618581" y="202.89426440292806" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="20" font-weight="700" fill="#1d1b19">The Sophists</text>
+      <text x="911.4637630618581" y="226.89426440292806" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">masters of rhetoric, persuasion,</text><text x="911.4637630618581" y="242.89426440292806" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">and power</text>
+    </g>
+  
+
+    <g>
+      <path d="M 358.32104479520405 392.525818234944 Q 488.32104479520405 395.525818234944 618.321044795204 390.525818234944" fill="none" stroke="#e3cdbe" stroke-width="26" stroke-linecap="round" opacity="0.85" />
+      <text x="488.32104479520405" y="370.525818234944" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="10" font-weight="700" letter-spacing="0.1em" fill="#6f675f">SYMPTOM</text>
+      <text x="488.32104479520405" y="398.525818234944" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="20" font-weight="700" fill="#1d1b19">Truth without Relevance</text>
+      <text x="488.32104479520405" y="422.525818234944" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">facts that do not transform how</text><text x="488.32104479520405" y="438.525818234944" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">you live</text>
+    </g>
+  
+
+    <g>
+      <path d="M 779.5544164787831 396.6801890425612 Q 909.5544164787831 399.6801890425612 1039.554416478783 394.6801890425612" fill="none" stroke="#e3cdbe" stroke-width="26" stroke-linecap="round" opacity="0.85" />
+      <text x="909.5544164787831" y="374.6801890425612" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="10" font-weight="700" letter-spacing="0.1em" fill="#6f675f">SYMPTOM</text>
+      <text x="909.5544164787831" y="402.6801890425612" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="20" font-weight="700" fill="#1d1b19">Relevance without Truth</text>
+      <text x="909.5544164787831" y="426.6801890425612" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">bullshit: prioritizing what is</text><text x="909.5544164787831" y="442.6801890425612" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">salient over what is real</text>
+    </g>
+  
+
+    <g>
+      <path d="M 605.909510410901 596.4290992595206 Q 702.909510410901 599.4290992595206 799.909510410901 594.4290992595206" fill="none" stroke="#dfccee" stroke-width="26" stroke-linecap="round" opacity="0.85" />
+      <text x="702.909510410901" y="574.4290992595206" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="10" font-weight="700" letter-spacing="0.1em" fill="#6f675f">CLAIM</text>
+      <text x="702.909510410901" y="602.4290992595206" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="20" font-weight="700" fill="#1d1b19">Self-Deception</text>
+      <text x="702.909510410901" y="626.4290992595206" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">the perennial human trap of</text><text x="702.909510410901" y="642.4290992595206" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">pursuing false salience</text>
+    </g>
+  
+
+    <g>
+      <path d="M 638.5156573825153 794.5971838837787 Q 702.5156573825153 797.5971838837787 766.5156573825153 792.5971838837787" fill="none" stroke="#eadcc7" stroke-width="26" stroke-linecap="round" opacity="0.85" />
+      <text x="702.5156573825153" y="772.5971838837787" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="10" font-weight="700" letter-spacing="0.1em" fill="#6f675f">FIGURE</text>
+      <text x="702.5156573825153" y="800.5971838837787" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="20" font-weight="700" fill="#1d1b19">Socrates</text>
+      <text x="702.5156573825153" y="824.5971838837787" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">the midwife of wisdom, knowing</text><text x="702.5156573825153" y="840.5971838837787" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">what he does not know</text>
+    </g>
+  
+
+    <g>
+      <path d="M 571.4939709684847 994.9720143519384 Q 701.4939709684847 997.9720143519384 831.4939709684847 992.9720143519384" fill="none" stroke="#c6dbc6" stroke-width="26" stroke-linecap="round" opacity="0.85" />
+      <text x="701.4939709684847" y="972.9720143519384" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="10" font-weight="700" letter-spacing="0.1em" fill="#6f675f">PROJECT</text>
+      <text x="701.4939709684847" y="1000.9720143519384" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="20" font-weight="700" fill="#1d1b19">Elenchus (Socratic Method)</text>
+      <text x="701.4939709684847" y="1024.9720143519385" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">questioning to strip away false</text><text x="701.4939709684847" y="1040.9720143519385" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">knowledge</text>
+    </g>
+  
+
+    <g>
+      <path d="M 648.8160656869286 1192.4374632946608 Q 701.8160656869286 1195.4374632946608 754.8160656869286 1190.4374632946608" fill="none" stroke="#c4d4e6" stroke-width="26" stroke-linecap="round" opacity="0.85" />
+      <text x="701.8160656869286" y="1170.4374632946608" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="10" font-weight="700" letter-spacing="0.1em" fill="#6f675f">CONCEPT</text>
+      <text x="701.8160656869286" y="1198.4374632946608" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="20" font-weight="700" fill="#1d1b19">Aporia</text>
+      <text x="701.8160656869286" y="1222.4374632946608" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">the state of shock, realization</text><text x="701.8160656869286" y="1238.4374632946608" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">of ignorance, and insight</text>
+    </g>
+  
+
+    <g>
+      <path d="M 646.2891592276654 1396.644980434735 Q 699.2891592276654 1399.644980434735 752.2891592276654 1394.644980434735" fill="none" stroke="#dfccee" stroke-width="26" stroke-linecap="round" opacity="0.85" />
+      <text x="699.2891592276654" y="1374.644980434735" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="10" font-weight="700" letter-spacing="0.1em" fill="#6f675f">CLAIM</text>
+      <text x="699.2891592276654" y="1402.644980434735" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="20" font-weight="700" fill="#1d1b19">Wisdom</text>
+      <text x="699.2891592276654" y="1426.644980434735" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">the tight coupling of truth</text><text x="699.2891592276654" y="1442.644980434735" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">machinery and relevance</text>
+    </g>
+  
+
+      <rect x="400" y="1500" width="600" height="40" rx="12" fill="rgba(255, 252, 245, 0.94)" stroke="rgba(96,74,49,0.06)" />
+      <text x="700" y="1525" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="15" fill="#1d1b19">Wisdom is not accumulating facts; it is protecting yourself from the bullshit of your own mind.</text>
+    
+</svg>

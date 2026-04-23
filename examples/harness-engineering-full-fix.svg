@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100%" viewBox="0 0 1400 980" xmlns="http://www.w3.org/2000/svg" role="img">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#f8f3ea" /><stop offset="100%" stop-color="#f4efe6" /></linearGradient>
+  </defs>
+  <rect x="0" y="0" width="1400" height="980" fill="url(#bg)" />
+  <rect x="20" y="18" width="1360" height="72" rx="18" fill="rgba(255,255,255,0.58)" stroke="rgba(96,74,49,0.08)" />
+  <text x="40" y="52" font-family="Avenir Next, Segoe UI, sans-serif" font-size="28" font-weight="700" fill="#1d1b19">Harness Engineering (Full)</text>
+  <text x="40" y="76" font-family="Avenir Next, Segoe UI, sans-serif" font-size="14" fill="#6f675f">Guiding the model to its ceiling</text>
+
+
+      <rect x="-152.135555609586" y="100.14404041622845" width="1180.1388113033825" height="361.4382559184356" rx="30.205371555934814" fill="rgba(210, 192, 170, 0.11)" stroke="rgba(124, 105, 85, 0.18)" stroke-width="2" stroke-dasharray="12 8" />
+      <text x="-128.135555609586" y="124.14404041622845" font-family="Avenir Next, Segoe UI, sans-serif" font-size="13" font-weight="700" letter-spacing="0.08em" text-transform="uppercase" fill="#6f675f">The Core Split</text>
+    
+
+      <rect x="690.4899498509967" y="297.7266280660685" width="858.711040203983" height="165.1056385159199" rx="32.090817935135334" fill="rgba(210, 192, 170, 0.11)" stroke="rgba(124, 105, 85, 0.18)" stroke-width="2" stroke-dasharray="12 8" />
+      <text x="714.4899498509967" y="321.7266280660685" font-family="Avenir Next, Segoe UI, sans-serif" font-size="13" font-weight="700" letter-spacing="0.08em" text-transform="uppercase" fill="#6f675f">Harness Anatomy</text>
+    
+<path d="M 541.9258619831533 225.14404041622845 C 541.9258619831533 593.0517076357451, 17.86444439041402 -35.821993475542, 17.86444439041402 342.0856737439746" fill="none" stroke="#7f756a" stroke-width="2.2" opacity="0.6" />
+
+      <rect x="234.89515318678366" y="241.6148570801015" width="90" height="24" rx="12" fill="#f4efe6" opacity="0.95" stroke="rgba(96,74,49,0.05)" />
+      <text x="279.89515318678366" y="257.6148570801015" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="11" font-weight="600" fill="#6f675f">determines</text>
+    
+<path d="M 907.5032556937965 226.0033437430119 C 907.5032556937965 562.5820066388114, 438.6879446938408 0.003633438864483196, 438.6879446938408 346.582296334664" fill="none" stroke="#7f756a" stroke-width="2.2" opacity="0.6" />
+
+      <rect x="638.5956001938187" y="244.29282003883793" width="69" height="24" rx="12" fill="#f4efe6" opacity="0.95" stroke="rgba(96,74,49,0.05)" />
+      <text x="673.0956001938187" y="260.29282003883793" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="11" font-weight="600" fill="#6f675f">unlocks</text>
+    
+<path d="M 17.86444439041402 422.0856737439746 C 17.86444439041402 887.0377741383272, 698.1270645865852 70.72262990292188, 698.1270645865852 545.6747302972744" fill="none" stroke="#7f756a" stroke-width="2.2" opacity="0.6" />
+<path d="M 438.6879446938408 426.582296334664 C 438.6879446938408 636.7919852516159, 698.1270645865852 325.46504138032265, 698.1270645865852 545.6747302972744" fill="none" stroke="#7f756a" stroke-width="2.2" opacity="0.6" />
+<path d="M 907.5032556937965 226.0033437430119 C 907.5032556937965 315.5578802268569, 849.4899498509967 245.94191321549715, 849.4899498509967 345.4964496993422" fill="none" stroke="#7f756a" stroke-width="2.2" opacity="0.6" />
+
+      <rect x="840.4966027723966" y="268.74989672117704" width="76" height="24" rx="12" fill="#f4efe6" opacity="0.95" stroke="rgba(96,74,49,0.05)" />
+      <text x="878.4966027723966" y="284.74989672117704" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="11" font-weight="600" fill="#6f675f">includes</text>
+    
+<path d="M 907.5032556937965 226.0033437430119 C 907.5032556937965 448.42956310041063, 1189.2775510202473 110.30040870866969, 1189.2775510202473 342.7266280660685" fill="none" stroke="#7f756a" stroke-width="2.2" opacity="0.6" />
+
+      <rect x="1010.390403357022" y="242.36498590454016" width="76" height="24" rx="12" fill="#f4efe6" opacity="0.95" stroke="rgba(96,74,49,0.05)" />
+      <text x="1048.390403357022" y="258.36498590454016" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="11" font-weight="600" fill="#6f675f">includes</text>
+    
+<path d="M 907.5032556937965 226.0033437430119 C 907.5032556937965 614.4364457792101, 1461.7009900549797 -50.600835454209744, 1461.7009900549797 347.8322665819884" fill="none" stroke="#7f756a" stroke-width="2.2" opacity="0.6" />
+
+      <rect x="1146.602122874388" y="244.91780516250014" width="76" height="24" rx="12" fill="#f4efe6" opacity="0.95" stroke="rgba(96,74,49,0.05)" />
+      <text x="1184.602122874388" y="260.91780516250014" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="11" font-weight="600" fill="#6f675f">includes</text>
+    
+<path d="M 849.4899498509967 425.4964496993422 C 849.4899498509967 669.2328592678144, 702.5421664137128 492.8955191430738, 702.5421664137128 746.631928711546" fill="none" stroke="#7f756a" stroke-width="2.2" opacity="0.6" />
+<path d="M 1189.2775510202473 422.7266280660685 C 1189.2775510202473 871.7205091527279, 702.5421664137128 287.63804762488655, 702.5421664137128 746.631928711546" fill="none" stroke="#7f756a" stroke-width="2.2" opacity="0.6" />
+<path d="M 1461.7009900549797 427.8322665819884 C 1461.7009900549797 1037.7273918315273, 702.5421664137128 126.73680346200712, 702.5421664137128 746.631928711546" fill="none" stroke="#7f756a" stroke-width="2.2" opacity="0.6" />
+<path d="M 698.1270645865852 625.6747302972744 C 698.1270645865852 683.8023906006869, 702.5421664137128 678.5042684081337, 702.5421664137128 746.631928711546" fill="none" stroke="#7f756a" stroke-width="2.2" opacity="0.6" />
+
+      <rect x="662.3346155001491" y="669.1533295044103" width="76" height="24" rx="12" fill="#f4efe6" opacity="0.95" stroke="rgba(96,74,49,0.05)" />
+      <text x="700.3346155001491" y="685.1533295044103" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="11" font-weight="600" fill="#6f675f">explains</text>
+    
+
+    <g>
+      <path d="M 411.92586198315325 194.14404041622845 Q 541.9258619831533 197.14404041622845 671.9258619831533 192.14404041622845" fill="none" stroke="#c4d4e6" stroke-width="26" stroke-linecap="round" opacity="0.85" />
+      <text x="541.9258619831533" y="172.14404041622845" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="10" font-weight="700" letter-spacing="0.1em" fill="#6f675f">CONCEPT</text>
+      <text x="541.9258619831533" y="200.14404041622845" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="20" font-weight="700" fill="#1d1b19">The Model (The Horse)</text>
+      <text x="541.9258619831533" y="224.14404041622845" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">parameters, context window,</text><text x="541.9258619831533" y="240.14404041622845" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">capability ceiling</text>
+    </g>
+  
+
+    <g>
+      <path d="M 827.0032556937965 195.0033437430119 Q 907.5032556937965 198.0033437430119 988.0032556937965 193.0033437430119" fill="none" stroke="#c4d4e6" stroke-width="26" stroke-linecap="round" opacity="0.85" />
+      <text x="907.5032556937965" y="173.0033437430119" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="10" font-weight="700" letter-spacing="0.1em" fill="#6f675f">CONCEPT</text>
+      <text x="907.5032556937965" y="201.0033437430119" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="20" font-weight="700" fill="#1d1b19">The Harness</text>
+      <text x="907.5032556937965" y="225.0033437430119" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">prompts, tools, and evals that</text><text x="907.5032556937965" y="241.0033437430119" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">steer the model</text>
+    </g>
+  
+
+    <g>
+      <path d="M -112.13555560958598 391.0856737439746 Q 17.86444439041402 394.0856737439746 147.864444390414 389.0856737439746" fill="none" stroke="#dfccee" stroke-width="26" stroke-linecap="round" opacity="0.85" />
+      <text x="17.86444439041402" y="369.0856737439746" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="10" font-weight="700" letter-spacing="0.1em" fill="#6f675f">CLAIM</text>
+      <text x="17.86444439041402" y="397.0856737439746" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="20" font-weight="700" fill="#1d1b19">Capability (Upper Bound)</text>
+      <text x="17.86444439041402" y="421.0856737439746" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">set at training, not at use</text>
+    </g>
+  
+
+    <g>
+      <path d="M 308.6879446938408 395.582296334664 Q 438.6879446938408 398.582296334664 568.6879446938408 393.582296334664" fill="none" stroke="#dfccee" stroke-width="26" stroke-linecap="round" opacity="0.85" />
+      <text x="438.6879446938408" y="373.582296334664" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="10" font-weight="700" letter-spacing="0.1em" fill="#6f675f">CLAIM</text>
+      <text x="438.6879446938408" y="401.582296334664" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="20" font-weight="700" fill="#1d1b19">Performance (Actual Reach)</text>
+      <text x="438.6879446938408" y="425.582296334664" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">determined by the quality of the</text><text x="438.6879446938408" y="441.582296334664" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">harness</text>
+    </g>
+  
+
+    <g>
+      <path d="M 573.6270645865852 594.6747302972744 Q 698.1270645865852 597.6747302972744 822.6270645865852 592.6747302972744" fill="none" stroke="#e6ddd0" stroke-width="26" stroke-linecap="round" opacity="0.85" />
+      <text x="698.1270645865852" y="572.6747302972744" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="10" font-weight="700" letter-spacing="0.1em" fill="#6f675f">INSIGHT</text>
+      <text x="698.1270645865852" y="600.6747302972744" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="20" font-weight="700" fill="#1d1b19">The Failure Reframe</text>
+      <text x="698.1270645865852" y="624.6747302972744" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">when AI fails, the harness</text><text x="698.1270645865852" y="640.6747302972744" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">usually failed, not the model</text>
+    </g>
+  
+
+    <g>
+      <path d="M 730.4899498509967 394.4964496993422 Q 849.4899498509967 397.4964496993422 968.4899498509967 392.4964496993422" fill="none" stroke="#e6ddd0" stroke-width="26" stroke-linecap="round" opacity="0.85" />
+      <text x="849.4899498509967" y="372.4964496993422" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="10" font-weight="700" letter-spacing="0.1em" fill="#6f675f">TECHNIQUE</text>
+      <text x="849.4899498509967" y="400.4964496993422" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="20" font-weight="700" fill="#1d1b19">Few-Shot Prompting</text>
+      <text x="849.4899498509967" y="424.4964496993422" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">teaching through pattern, not</text><text x="849.4899498509967" y="440.4964496993422" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">just form</text>
+    </g>
+  
+
+    <g>
+      <path d="M 1125.2775510202473 391.7266280660685 Q 1189.2775510202473 394.7266280660685 1253.2775510202473 389.7266280660685" fill="none" stroke="#e6ddd0" stroke-width="26" stroke-linecap="round" opacity="0.85" />
+      <text x="1189.2775510202473" y="369.7266280660685" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="10" font-weight="700" letter-spacing="0.1em" fill="#6f675f">TECHNIQUE</text>
+      <text x="1189.2775510202473" y="397.7266280660685" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="20" font-weight="700" fill="#1d1b19">Tool Use</text>
+      <text x="1189.2775510202473" y="421.7266280660685" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">extending reach (search,</text><text x="1189.2775510202473" y="437.7266280660685" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">calculator, APIs)</text>
+    </g>
+  
+
+    <g>
+      <path d="M 1414.2009900549797 396.8322665819884 Q 1461.7009900549797 399.8322665819884 1509.2009900549797 394.8322665819884" fill="none" stroke="#e6ddd0" stroke-width="26" stroke-linecap="round" opacity="0.85" />
+      <text x="1461.7009900549797" y="374.8322665819884" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="10" font-weight="700" letter-spacing="0.1em" fill="#6f675f">TECHNIQUE</text>
+      <text x="1461.7009900549797" y="402.8322665819884" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="20" font-weight="700" fill="#1d1b19">Evals</text>
+      <text x="1461.7009900549797" y="426.8322665819884" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">the feedback loop around the</text><text x="1461.7009900549797" y="442.8322665819884" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">harness</text>
+    </g>
+  
+
+    <g>
+      <path d="M 627.5421664137128 795.631928711546 Q 702.5421664137128 798.631928711546 777.5421664137128 793.631928711546" fill="none" stroke="#c6dbc6" stroke-width="26" stroke-linecap="round" opacity="0.85" />
+      <text x="702.5421664137128" y="773.631928711546" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="10" font-weight="700" letter-spacing="0.1em" fill="#6f675f">PROJECT</text>
+      <text x="702.5421664137128" y="801.631928711546" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="20" font-weight="700" fill="#1d1b19">Shipped AI</text>
+      <text x="702.5421664137128" y="825.631928711546" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">what looks like intelligence is</text><text x="702.5421664137128" y="841.631928711546" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">usually guidance</text>
+    </g>
+  
+
+      <rect x="400" y="900" width="600" height="40" rx="12" fill="rgba(255, 252, 245, 0.94)" stroke="rgba(96,74,49,0.06)" />
+      <text x="700" y="925" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="15" fill="#1d1b19">The gap between a convincing demo and a shipped product is almost entirely harness work.</text>
+    
+</svg>

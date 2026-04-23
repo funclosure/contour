@@ -115,11 +115,12 @@ const graph = {
   layoutOptions: {
     'elk.algorithm': 'layered',
     'elk.direction': 'DOWN',
-    'elk.spacing.nodeNode': '60',
+    'elk.spacing.nodeNode': '40',
     'elk.layered.spacing.nodeNodeBetweenLayers': '90',
     'elk.edgeRouting': 'ORTHOGONAL',
     'elk.layered.nodePlacement.strategy': 'BRANDES_KOEPF',
-    'elk.layered.compaction.postCompaction.strategy': 'EDGE_LENGTH'
+    'elk.layered.compaction.postCompaction.strategy': 'EDGE_LENGTH',
+    'elk.alignment': 'CENTER'
   },
   children: elkNodes,
   edges: elkEdges

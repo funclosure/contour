@@ -1,0 +1,150 @@
+{
+  "title": "Awakening from the Meaning Crisis — Ep. 1",
+  "subtitle": "Converging pressures, a named wound, and openings into inquiry",
+  "nodes": [
+    {
+      "id": "light-conv",
+      "label": "Light Convergence",
+      "kind": "concept",
+      "summary": "what people reach for when they feel the hunger for meaning",
+      "x": 260,
+      "y": 140
+    },
+    {
+      "id": "dark-conv",
+      "label": "Dark Convergence",
+      "kind": "concept",
+      "summary": "what people flee from when disconnection intensifies",
+      "x": 840,
+      "y": 140
+    },
+
+    {
+      "id": "mindfulness",
+      "label": "mindfulness revolution",
+      "kind": "project",
+      "x": 160,
+      "y": 280
+    },
+    {
+      "id": "wisdom-traditions",
+      "label": "return to wisdom traditions",
+      "kind": "project",
+      "x": 360,
+      "y": 280
+    },
+    {
+      "id": "search-meaning",
+      "label": "search for meaning in life",
+      "kind": "project",
+      "x": 260,
+      "y": 380
+    },
+
+    {
+      "id": "mh-crisis",
+      "label": "mental-health crisis",
+      "kind": "symptom",
+      "x": 740,
+      "y": 280
+    },
+    {
+      "id": "bullshit",
+      "label": "pervasive bullshit",
+      "kind": "symptom",
+      "x": 940,
+      "y": 280
+    },
+    {
+      "id": "nihilism",
+      "label": "nihilism and despair",
+      "kind": "symptom",
+      "x": 840,
+      "y": 380
+    },
+
+    {
+      "id": "meaning-crisis",
+      "label": "The Meaning Crisis",
+      "kind": "claim",
+      "summary": "one diagnosis beneath many symptoms",
+      "x": 550,
+      "y": 300
+    },
+
+    {
+      "id": "what-meaning",
+      "label": "What is meaning?",
+      "kind": "question",
+      "summary": "its structure and function",
+      "x": 260,
+      "y": 600
+    },
+    {
+      "id": "why-hunger",
+      "label": "Why do we hunger?",
+      "kind": "question",
+      "summary": "its role in cognition and life",
+      "x": 550,
+      "y": 600
+    },
+    {
+      "id": "cultivating-wisdom",
+      "label": "Cultivating wisdom",
+      "kind": "question",
+      "summary": "how awakening becomes practice",
+      "x": 840,
+      "y": 600
+    }
+  ],
+  "edges": [
+    { "from": "light-conv", "to": "meaning-crisis", "kind": "bridges" },
+    { "from": "dark-conv", "to": "meaning-crisis", "kind": "bridges" },
+
+    { "from": "mindfulness", "to": "light-conv", "kind": "supports" },
+    { "from": "wisdom-traditions", "to": "light-conv", "kind": "supports" },
+    { "from": "search-meaning", "to": "light-conv", "kind": "supports" },
+
+    { "from": "mh-crisis", "to": "dark-conv", "kind": "supports" },
+    { "from": "bullshit", "to": "dark-conv", "kind": "supports" },
+    { "from": "nihilism", "to": "dark-conv", "kind": "supports" },
+
+    { "from": "meaning-crisis", "to": "what-meaning", "kind": "bridges" },
+    { "from": "meaning-crisis", "to": "why-hunger", "kind": "bridges" },
+    { "from": "meaning-crisis", "to": "cultivating-wisdom", "kind": "bridges" }
+  ],
+  "groups": [
+    {
+      "id": "left-field",
+      "label": "Attraction field",
+      "members": ["light-conv", "mindfulness", "wisdom-traditions", "search-meaning"],
+      "style": "region"
+    },
+    {
+      "id": "right-field",
+      "label": "Collapse field",
+      "members": ["dark-conv", "mh-crisis", "bullshit", "nihilism"],
+      "style": "region"
+    },
+    {
+      "id": "openings",
+      "label": "Openings into inquiry",
+      "members": ["what-meaning", "why-hunger", "cultivating-wisdom"],
+      "style": "region"
+    }
+  ],
+  "annotations": [
+    {
+      "id": "note-anchor",
+      "text": "The meaning crisis is what you feel when you no longer feel at home in the world.",
+      "x": 550,
+      "y": 480,
+      "kind": "insight"
+    }
+  ],
+  "view": {
+    "theme": "light",
+    "showSummaries": true,
+    "showEdgeLabels": false
+  }
+}

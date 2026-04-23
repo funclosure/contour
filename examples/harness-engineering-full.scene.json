@@ -1,0 +1,104 @@
+{
+  "title": "Harness Engineering (Full)",
+  "subtitle": "Guiding the model to its ceiling",
+  "nodes": [
+    {
+      "id": "the-model",
+      "label": "The Model (The Horse)",
+      "kind": "concept",
+      "summary": "parameters, context window, capability ceiling"
+    },
+    {
+      "id": "the-harness",
+      "label": "The Harness",
+      "kind": "concept",
+      "summary": "prompts, tools, and evals that steer the model"
+    },
+    
+    {
+      "id": "capability",
+      "label": "Capability (Upper Bound)",
+      "kind": "claim",
+      "summary": "set at training, not at use"
+    },
+    {
+      "id": "performance",
+      "label": "Performance (Actual Reach)",
+      "kind": "claim",
+      "summary": "determined by the quality of the harness"
+    },
+
+    {
+      "id": "failure",
+      "label": "The Failure Reframe",
+      "kind": "insight",
+      "summary": "when AI fails, the harness usually failed, not the model"
+    },
+
+    {
+      "id": "few-shot",
+      "label": "Few-Shot Prompting",
+      "kind": "technique",
+      "summary": "teaching through pattern, not just form"
+    },
+    {
+      "id": "tool-use",
+      "label": "Tool Use",
+      "kind": "technique",
+      "summary": "extending reach (search, calculator, APIs)"
+    },
+    {
+      "id": "evals",
+      "label": "Evals",
+      "kind": "technique",
+      "summary": "the feedback loop around the harness"
+    },
+
+    {
+      "id": "shipped-ai",
+      "label": "Shipped AI",
+      "kind": "project",
+      "summary": "what looks like intelligence is usually guidance"
+    }
+  ],
+  "edges": [
+    { "from": "the-model", "to": "capability", "kind": "supports", "label": "determines" },
+    { "from": "the-harness", "to": "performance", "kind": "supports", "label": "unlocks" },
+    
+    { "from": "capability", "to": "failure", "kind": "bridges" },
+    { "from": "performance", "to": "failure", "kind": "bridges" },
+
+    { "from": "the-harness", "to": "few-shot", "kind": "claims", "label": "includes" },
+    { "from": "the-harness", "to": "tool-use", "kind": "claims", "label": "includes" },
+    { "from": "the-harness", "to": "evals", "kind": "claims", "label": "includes" },
+
+    { "from": "few-shot", "to": "shipped-ai", "kind": "supports" },
+    { "from": "tool-use", "to": "shipped-ai", "kind": "supports" },
+    { "from": "evals", "to": "shipped-ai", "kind": "supports" },
+    { "from": "failure", "to": "shipped-ai", "kind": "bridges", "label": "explains" }
+  ],
+  "groups": [
+    {
+      "id": "core-split",
+      "label": "The Core Split",
+      "members": ["the-model", "capability", "the-harness", "performance"]
+    },
+    {
+      "id": "techniques",
+      "label": "Harness Anatomy",
+      "members": ["few-shot", "tool-use", "evals"]
+    }
+  ],
+  "annotations": [
+    {
+      "id": "note-anchor",
+      "text": "The gap between a convincing demo and a shipped product is almost entirely harness work.",
+      "kind": "insight"
+    }
+  ],
+  "view": {
+    "theme": "light",
+    "showSummaries": true,
+    "showEdgeLabels": true
+  }
+}

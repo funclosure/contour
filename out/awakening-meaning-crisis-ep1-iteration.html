@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contour v0</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --paper: #f4efe6;
+      --ink: #1d1b19;
+      --muted: #6f675f;
+      --mist: #dde5ef;
+      --sand: #eadcc7;
+      --moss: #dce8dc;
+      --path: #7f756a;
+      --region-fill: rgba(210, 192, 170, 0.11);
+      --region-stroke: rgba(124, 105, 85, 0.18);
+      --note-fill: rgba(255, 252, 245, 0.94);
+      --shadow: 0 14px 34px rgba(63, 45, 29, 0.08);
+      --font-body: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif;
+      --font-ui: "Avenir Next", "Segoe UI", system-ui, sans-serif;
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body {
+      height: 100%;
+    }
+
+    body {
+      margin: 0;
+      background:
+        radial-gradient(circle at top, rgba(255,255,255,0.48), transparent 28%),
+        linear-gradient(180deg, #f8f3ea 0%, var(--paper) 100%);
+      color: var(--ink);
+      font-family: var(--font-body);
+    }
+
+    .page {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      padding: 16px;
+      align-items: center;
+    }
+
+    .stage {
+      width: min(100%, 1320px);
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      min-height: calc(100vh - 32px);
+    }
+
+    .header {
+      background: linear-gradient(180deg, rgba(255,255,255,0.68), rgba(255,255,255,0.4));
+      border: 1px solid rgba(96, 74, 49, 0.08);
+      border-radius: 18px;
+      padding: 14px 18px 12px;
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(3px);
+      flex: 0 0 auto;
+    }
+
+    h1 {
+      margin: 0;
+      font-family: var(--font-ui);
+      font-size: 1.62rem;
+      line-height: 1.05;
+      letter-spacing: -0.03em;
+      font-weight: 700;
+    }
+
+    .subtitle {
+      margin-top: 6px;
+      color: var(--muted);
+      font-family: var(--font-ui);
+      font-size: 0.88rem;
+      white-space: pre-line;
+    }
+
+    .canvas-wrap {
+      background: linear-gradient(180deg, rgba(255,255,255,0.42), rgba(255,255,255,0.18));
+      border: 1px solid rgba(96, 74, 49, 0.08);
+      border-radius: 20px;
+      padding: 8px;
+      box-shadow: var(--shadow);
+      flex: 1 1 auto;
+      min-height: 0;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .scene-frame {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+
+    svg {
+      display: block;
+      width: 100%;
+      height: 100%;
+      max-width: 100%;
+      max-height: 100%;
+    }
+
+    .region-fill {
+      fill: var(--region-fill);
+      stroke: none;
+    }
+
+    .region-line {
+      fill: none;
+      stroke: var(--region-stroke);
+      stroke-width: 1.15;
+      opacity: 0.9;
+    }
+
+    .group-label {
+      font-family: var(--font-ui);
+      font-size: 12px;
+      fill: var(--muted);
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .edge {
+      stroke: var(--path);
+      stroke-width: 1.95;
+      fill: none;
+      opacity: 0.88;
+    }
+
+    .edge.tension {
+      stroke: #985f5f;
+      stroke-dasharray: 8 5;
+    }
+
+    .edge-label-bg {
+      fill: rgba(244, 239, 230, 0.95);
+      stroke: rgba(80, 64, 48, 0.06);
+    }
+
+    .edge-label {
+      font-family: var(--font-ui);
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 0.01em;
+      fill: var(--muted);
+      text-anchor: middle;
+    }
+
+    .annotation-box {
+      fill: var(--note-fill);
+      stroke: rgba(96, 74, 49, 0.06);
+      filter: drop-shadow(0 4px 8px rgba(0,0,0,0.03));
+    }
+
+    .annotation {
+      font-family: var(--font-body);
+      font-size: 13px;
+      fill: var(--ink);
+    }
+
+    .node {
+      stroke: rgba(65, 49, 34, 0.08);
+      stroke-width: 1.25;
+      filter: drop-shadow(0 6px 12px rgba(36, 27, 21, 0.06));
+    }
+
+    .node.figure { fill: var(--sand); }
+    .node.concept { fill: var(--mist); }
+    .node.project { fill: var(--moss); }
+    .node.question { fill: #f3dddd; }
+    .node.claim { fill: #ece2f3; }
+    .node.default { fill: #f3eee5; }
+
+    .node-label {
+      font-family: var(--font-ui);
+      font-size: 15px;
+      font-weight: 700;
+      fill: var(--ink);
+    }
+
+    .node-kind {
+      font-family: var(--font-ui);
+      font-size: 9px;
+      font-weight: 700;
+      letter-spacing: 0.09em;
+      text-transform: uppercase;
+      fill: var(--muted);
+      opacity: 0.82;
+    }
+
+    .node-summary {
+      font-family: var(--font-body);
+      font-size: 11.5px;
+      line-height: 1.28;
+      fill: #544c45;
+    }
+
+    .footer {
+      color: var(--muted);
+      font-family: var(--font-ui);
+      font-size: 12px;
+      padding: 0 4px;
+      flex: 0 0 auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="stage">
+      <div class="header">
+        <h1 id="title">Contour</h1>
+        <div id="subtitle" class="subtitle">Loading scene…</div>
+      </div>
+
+      <div class="canvas-wrap">
+        <div class="scene-frame">
+          <svg id="scene" viewBox="0 0 1160 640" xmlns="http://www.w3.org/2000/svg" aria-label="Contour scene"></svg>
+        </div>
+      </div>
+
+      <div class="footer">
+        Contour v0, self-contained scene artifact. A map-like thinking surface for iterative inquiry.
+      </div>
+    </div>
+  </div>
+
+  <script id="embedded-scene" type="application/json">
+{
+  "title": "Awakening from the Meaning Crisis — Ep. 1",
+  "subtitle": "A field of converging pressures, a named wound, and openings into inquiry",
+  "nodes": [
+    {
+      "id": "light-conv",
+      "label": "Light Convergence",
+      "kind": "concept",
+      "summary": "what people reach for when they feel the hunger for meaning",
+      "x": 250,
+      "y": 130
+    },
+    {
+      "id": "dark-conv",
+      "label": "Dark Convergence",
+      "kind": "concept",
+      "summary": "what people flee from when disconnection intensifies",
+      "x": 860,
+      "y": 130
+    },
+
+    {
+      "id": "mindfulness",
+      "label": "mindfulness revolution",
+      "kind": "project",
+      "x": 210,
+      "y": 250
+    },
+    {
+      "id": "wisdom-traditions",
+      "label": "return to wisdom traditions",
+      "kind": "project",
+      "x": 310,
+      "y": 330
+    },
+    {
+      "id": "search-meaning",
+      "label": "search for meaning in life",
+      "kind": "project",
+      "x": 180,
+      "y": 410
+    },
+
+    {
+      "id": "mh-crisis",
+      "label": "mental-health crisis",
+      "kind": "symptom",
+      "x": 870,
+      "y": 250
+    },
+    {
+      "id": "bullshit",
+      "label": "pervasive bullshit",
+      "kind": "symptom",
+      "x": 930,
+      "y": 335
+    },
+    {
+      "id": "nihilism",
+      "label": "nihilism and despair",
+      "kind": "symptom",
+      "x": 845,
+      "y": 420
+    },
+
+    {
+      "id": "meaning-crisis",
+      "label": "The Meaning Crisis",
+      "kind": "claim",
+      "summary": "one diagnosis beneath many symptoms",
+      "x": 550,
+      "y": 340
+    },
+
+    {
+      "id": "what-meaning",
+      "label": "What is meaning?",
+      "kind": "question",
+      "summary": "its structure and function",
+      "x": 260,
+      "y": 545
+    },
+    {
+      "id": "why-hunger",
+      "label": "Why do we hunger?",
+      "kind": "question",
+      "summary": "its role in cognition and life",
+      "x": 550,
+      "y": 575
+    },
+    {
+      "id": "cultivating-wisdom",
+      "label": "Cultivating wisdom",
+      "kind": "question",
+      "summary": "how awakening becomes practice",
+      "x": 840,
+      "y": 545
+    }
+  ],
+  "edges": [
+    { "from": "light-conv", "to": "meaning-crisis", "kind": "bridges", "label": "converges toward" },
+    { "from": "dark-conv", "to": "meaning-crisis", "kind": "bridges", "label": "collapses into" },
+
+    { "from": "mindfulness", "to": "light-conv", "kind": "supports" },
+    { "from": "wisdom-traditions", "to": "light-conv", "kind": "supports" },
+    { "from": "search-meaning", "to": "light-conv", "kind": "supports" },
+
+    { "from": "mh-crisis", "to": "dark-conv", "kind": "supports" },
+    { "from": "bullshit", "to": "dark-conv", "kind": "supports" },
+    { "from": "nihilism", "to": "dark-conv", "kind": "supports" },
+
+    { "from": "meaning-crisis", "to": "what-meaning", "kind": "bridges", "label": "opens" },
+    { "from": "meaning-crisis", "to": "why-hunger", "kind": "bridges", "label": "demands" },
+    { "from": "meaning-crisis", "to": "cultivating-wisdom", "kind": "bridges", "label": "calls for" }
+  ],
+  "groups": [
+    {
+      "id": "left-field",
+      "label": "Attraction field",
+      "members": ["light-conv", "mindfulness", "wisdom-traditions", "search-meaning"],
+      "style": "region"
+    },
+    {
+      "id": "right-field",
+      "label": "Collapse field",
+      "members": ["dark-conv", "mh-crisis", "bullshit", "nihilism"],
+      "style": "region"
+    },
+    {
+      "id": "openings",
+      "label": "Openings into inquiry",
+      "members": ["what-meaning", "why-hunger", "cultivating-wisdom"],
+      "style": "region"
+    }
+  ],
+  "annotations": [
+    {
+      "id": "note-anchor",
+      "text": "The meaning crisis is what you feel when you no longer feel at home in the world.",
+      "x": 550,
+      "y": 490,
+      "kind": "insight"
+    }
+  ],
+  "view": {
+    "theme": "light",
+    "showSummaries": true,
+    "showEdgeLabels": true
+  }
+}
+
+</script>
+
+  <script>
+    const NODE_WIDTH = 210;
+    const NODE_HEIGHT = 78;
+    const SVG_NS = 'http://www.w3.org/2000/svg';
+
+    function create(tag) {
+      return document.createElementNS(SVG_NS, tag);
+    }
+
+    function kindClass(kind) {
+      return kind || 'default';
+    }
+
+    function nodeBounds(node) {
+      return {
+        x: node.x - NODE_WIDTH / 2,
+        y: node.y - NODE_HEIGHT / 2,
+        width: NODE_WIDTH,
+        height: NODE_HEIGHT
+      };
+    }
+
+    function groupBounds(group, nodes) {
+      const members = group.members.map(id => nodes.find(n => n.id === id)).filter(Boolean);
+      const paddingX = 40;
+      const paddingY = 36;
+      const xs = members.map(n => nodeBounds(n).x);
+      const ys = members.map(n => nodeBounds(n).y);
+      const ws = members.map(n => nodeBounds(n).x + NODE_WIDTH);
+      const hs = members.map(n => nodeBounds(n).y + NODE_HEIGHT);
+      const minX = Math.min(...xs) - paddingX;
+      const minY = Math.min(...ys) - paddingY;
+      const maxX = Math.max(...ws) + paddingX;
+      const maxY = Math.max(...hs) + paddingY;
+      return {
+        x: minX,
+        y: minY,
+        width: maxX - minX,
+        height: maxY - minY
+      };
+    }
+
+    function wrapText(text, maxCharsPerLine) {
+      const words = text.split(' ');
+      const lines = [];
+      let current = '';
+      for (const word of words) {
+        const test = current ? `${current} ${word}` : word;
+        if (test.length > maxCharsPerLine) {
+          if (current) lines.push(current);
+          current = word;
+        } else {
+          current = test;
+        }
+      }
+      if (current) lines.push(current);
+      return lines;
+    }
+
+    function addMultilineText(parent, lines, x, y, className, lineHeight) {
+      const text = create('text');
+      text.setAttribute('x', x);
+      text.setAttribute('y', y);
+      text.setAttribute('class', className);
+      lines.forEach((line, index) => {
+        const tspan = create('tspan');
+        tspan.setAttribute('x', x);
+        tspan.setAttribute('dy', index === 0 ? 0 : lineHeight);
+        tspan.textContent = line;
+        text.appendChild(tspan);
+      });
+      parent.appendChild(text);
+      return text;
+    }
+
+    function pathBetween(from, to, edge) {
+      const dx = to.x - from.x;
+      const bend = Math.max(50, Math.abs(dx) * 0.16);
+      return {
+        d: `M ${from.x} ${from.y} C ${from.x + bend} ${from.y}, ${to.x - bend} ${to.y}, ${to.x} ${to.y}`,
+        labelX: (from.x + to.x) / 2 + (edge.labelDx || 0),
+        labelY: (from.y + to.y) / 2 - 8 + (edge.labelDy || 0)
+      };
+    }
+
+    function roundedRectPath(x, y, width, height, radius) {
+      return `M ${x + radius} ${y}
+              H ${x + width - radius}
+              Q ${x + width} ${y} ${x + width} ${y + radius}
+              V ${y + height - radius}
+              Q ${x + width} ${y + height} ${x + width - radius} ${y + height}
+              H ${x + radius}
+              Q ${x} ${y + height} ${x} ${y + height - radius}
+              V ${y + radius}
+              Q ${x} ${y} ${x + radius} ${y}`;
+    }
+
+    function drawRegionEnvelope(svg, bounds) {
+      const fill = create('path');
+      fill.setAttribute('d', roundedRectPath(bounds.x, bounds.y, bounds.width, bounds.height, 34));
+      fill.setAttribute('class', 'region-fill');
+      svg.appendChild(fill);
+
+      const line = create('path');
+      line.setAttribute('d', roundedRectPath(bounds.x + 4, bounds.y + 4, bounds.width - 8, bounds.height - 8, 30));
+      line.setAttribute('class', 'region-line');
+      svg.appendChild(line);
+    }
+
+    function drawScene(scene) {
+      const svg = document.getElementById('scene');
+      const title = document.getElementById('title');
+      const subtitle = document.getElementById('subtitle');
+      title.textContent = scene.title || 'Contour';
+      subtitle.textContent = scene.subtitle || '';
+      svg.innerHTML = '';
+
+      const defs = create('defs');
+      const marker = create('marker');
+      marker.setAttribute('id', 'arrow');
+      marker.setAttribute('viewBox', '0 0 10 10');
+      marker.setAttribute('refX', '9');
+      marker.setAttribute('refY', '5');
+      marker.setAttribute('markerWidth', '7');
+      marker.setAttribute('markerHeight', '7');
+      marker.setAttribute('orient', 'auto-start-reverse');
+      const arrowPath = create('path');
+      arrowPath.setAttribute('d', 'M 0 0 L 10 5 L 0 10 z');
+      arrowPath.setAttribute('fill', '#7f756a');
+      marker.appendChild(arrowPath);
+      defs.appendChild(marker);
+      svg.appendChild(defs);
+
+      scene.groups?.forEach(group => {
+        const bounds = groupBounds(group, scene.nodes);
+        drawRegionEnvelope(svg, bounds);
+
+        const label = create('text');
+        label.setAttribute('x', bounds.x + 18);
+        label.setAttribute('y', bounds.y + 20);
+        label.setAttribute('class', 'group-label');
+        label.textContent = group.label;
+        svg.appendChild(label);
+      });
+
+      scene.edges?.forEach(edge => {
+        const from = scene.nodes.find(n => n.id === edge.from);
+        const to = scene.nodes.find(n => n.id === edge.to);
+        if (!from || !to) return;
+
+        const route = pathBetween(from, to, edge);
+        const path = create('path');
+        path.setAttribute('d', route.d);
+        path.setAttribute('class', `edge ${edge.kind === 'tension' ? 'tension' : ''}`);
+        path.setAttribute('marker-end', 'url(#arrow)');
+        svg.appendChild(path);
+
+        if (scene.view?.showEdgeLabels && edge.label) {
+          const labelWidth = Math.max(58, edge.label.length * 5.8 + 12);
+          const labelRect = create('rect');
+          labelRect.setAttribute('x', route.labelX - labelWidth / 2);
+          labelRect.setAttribute('y', route.labelY - 10);
+          labelRect.setAttribute('width', labelWidth);
+          labelRect.setAttribute('height', 18);
+          labelRect.setAttribute('rx', 9);
+          labelRect.setAttribute('class', 'edge-label-bg');
+          svg.appendChild(labelRect);
+
+          const label = create('text');
+          label.setAttribute('x', route.labelX);
+          label.setAttribute('y', route.labelY + 2);
+          label.setAttribute('class', 'edge-label');
+          label.textContent = edge.label;
+          svg.appendChild(label);
+        }
+      });
+
+      scene.annotations?.forEach(note => {
+        const width = Math.max(220, note.text.length * 6.4);
+        const box = create('rect');
+        box.setAttribute('x', note.x - 12);
+        box.setAttribute('y', note.y - 20);
+        box.setAttribute('width', width);
+        box.setAttribute('height', 30);
+        box.setAttribute('rx', 15);
+        box.setAttribute('class', 'annotation-box');
+        svg.appendChild(box);
+
+        const text = create('text');
+        text.setAttribute('x', note.x + 2);
+        text.setAttribute('y', note.y - 1);
+        text.setAttribute('class', 'annotation');
+        text.textContent = note.text;
+        svg.appendChild(text);
+      });
+
+      scene.nodes?.forEach(node => {
+        const bounds = nodeBounds(node);
+        const rect = create('rect');
+        rect.setAttribute('x', bounds.x);
+        rect.setAttribute('y', bounds.y);
+        rect.setAttribute('width', bounds.width);
+        rect.setAttribute('height', bounds.height);
+        rect.setAttribute('rx', 22);
+        rect.setAttribute('class', `node ${kindClass(node.kind)}`);
+        rect.setAttribute('opacity', node.reveal === 'faded' ? '0.45' : node.reveal === 'hidden' ? '0' : '1');
+        svg.appendChild(rect);
+
+        const kind = create('text');
+        kind.setAttribute('x', bounds.x + 16);
+        kind.setAttribute('y', bounds.y + 17);
+        kind.setAttribute('class', 'node-kind');
+        kind.textContent = node.kind || 'node';
+        kind.setAttribute('opacity', node.reveal === 'faded' ? '0.65' : node.reveal === 'hidden' ? '0' : '1');
+        svg.appendChild(kind);
+
+        const label = create('text');
+        label.setAttribute('x', bounds.x + 16);
+        label.setAttribute('y', bounds.y + 38);
+        label.setAttribute('class', 'node-label');
+        label.textContent = node.label;
+        label.setAttribute('opacity', node.reveal === 'faded' ? '0.65' : node.reveal === 'hidden' ? '0' : '1');
+        svg.appendChild(label);
+
+        if (scene.view?.showSummaries && node.summary) {
+          const lines = wrapText(node.summary, 30).slice(0, 2);
+          const summaryText = addMultilineText(svg, lines, bounds.x + 16, bounds.y + 56, 'node-summary', 13.5);
+          summaryText.setAttribute('opacity', node.reveal === 'faded' ? '0.65' : node.reveal === 'hidden' ? '0' : '1');
+        }
+      });
+    }
+
+    async function loadScene() {
+      const embedded = document.getElementById('embedded-scene');
+      const fallbackScene = JSON.parse(embedded.textContent);
+      const params = new URLSearchParams(window.location.search);
+      const scenePath = params.get('scene');
+
+      if (!scenePath) {
+        drawScene(fallbackScene);
+        return;
+      }
+
+      try {
+        const response = await fetch(scenePath);
+        const scene = await response.json();
+        drawScene(scene);
+      } catch (error) {
+        console.warn('Falling back to embedded scene:', error);
+        drawScene(fallbackScene);
+        document.getElementById('subtitle').textContent = `${fallbackScene.subtitle}\nFallback loaded, external scene fetch failed.`;
+      }
+    }
+
+    loadScene().catch(error => {
+      document.getElementById('subtitle').textContent = `Failed to load scene: ${error.message}`;
+      console.error(error);
+    });
+  </script>
+</body>
+</html>

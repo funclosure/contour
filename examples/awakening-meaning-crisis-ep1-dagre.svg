@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100%" viewBox="0 0 1720 1054" xmlns="http://www.w3.org/2000/svg" role="img">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8f3ea" />
+      <stop offset="100%" stop-color="#f4efe6" />
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="1720" height="1054" fill="url(#bg)" />
+  <rect x="20" y="18" width="1680" height="72" rx="18" fill="rgba(255,255,255,0.58)" stroke="rgba(96,74,49,0.08)" />
+  <text x="40" y="52" font-family="Avenir Next, Segoe UI, sans-serif" font-size="28" font-weight="700" fill="#1d1b19">Awakening from the Meaning Crisis — Ep. 1</text>
+  <text x="40" y="76" font-family="Avenir Next, Segoe UI, sans-serif" font-size="14" fill="#6f675f">Converging pressures, a named wound, and openings into inquiry</text>
+
+
+      <rect x="40" y="100" width="810" height="350" rx="34" fill="rgba(210, 192, 170, 0.11)" stroke="rgba(124, 105, 85, 0.18)" />
+      <text x="54" y="90" font-family="Avenir Next, Segoe UI, sans-serif" font-size="12" font-weight="700" letter-spacing="0.08em" text-transform="uppercase" fill="#6f675f">Attraction field</text>
+    
+
+      <rect x="830" y="100" width="810" height="350" rx="34" fill="rgba(210, 192, 170, 0.11)" stroke="rgba(124, 105, 85, 0.18)" />
+      <text x="844" y="90" font-family="Avenir Next, Segoe UI, sans-serif" font-size="12" font-weight="700" letter-spacing="0.08em" text-transform="uppercase" fill="#6f675f">Collapse field</text>
+    
+
+      <rect x="375" y="662" width="930" height="212" rx="34" fill="rgba(210, 192, 170, 0.11)" stroke="rgba(124, 105, 85, 0.18)" />
+      <text x="389" y="652" font-family="Avenir Next, Segoe UI, sans-serif" font-size="12" font-weight="700" letter-spacing="0.08em" text-transform="uppercase" fill="#6f675f">Openings into inquiry</text>
+    
+<path d="M 445 390 L 445 430 L 445 470 L 715 530.3116883116883" fill="none" stroke="#7f756a" stroke-width="1.9" opacity="0.88" />
+<path d="M 1235 390 L 1235 430 L 1235 470 L 945 531.5802469135803" fill="none" stroke="#7f756a" stroke-width="1.9" opacity="0.88" />
+<path d="M 195 218 L 195 258 L 330 304.44" fill="none" stroke="#7f756a" stroke-width="1.9" opacity="0.88" />
+<path d="M 445 218 L 445 258 L 445 298" fill="none" stroke="#7f756a" stroke-width="1.9" opacity="0.88" />
+<path d="M 695 218 L 695 258 L 560 304.44" fill="none" stroke="#7f756a" stroke-width="1.9" opacity="0.88" />
+<path d="M 985 218 L 985 258 L 1120 304.44" fill="none" stroke="#7f756a" stroke-width="1.9" opacity="0.88" />
+<path d="M 1235 218 L 1235 258 L 1235 298" fill="none" stroke="#7f756a" stroke-width="1.9" opacity="0.88" />
+<path d="M 1485 218 L 1485 258 L 1350 304.44" fill="none" stroke="#7f756a" stroke-width="1.9" opacity="0.88" />
+<path d="M 715 591.3214285714286 L 550 642 L 550 682 L 550 722" fill="none" stroke="#7f756a" stroke-width="1.9" opacity="0.88" />
+<path d="M 835.3488372093024 602 L 840 642 L 840 682 L 840 722" fill="none" stroke="#7f756a" stroke-width="1.9" opacity="0.88" />
+<path d="M 945 588.9666666666667 L 1130 642 L 1130 682 L 1130 722" fill="none" stroke="#7f756a" stroke-width="1.9" opacity="0.88" />
+
+    <g>
+      <rect x="330" y="298" width="230" height="92" rx="18" fill="#dde5ef" stroke="rgba(65,49,34,0.08)" />
+      <text x="346" y="316" font-family="Avenir Next, Segoe UI, sans-serif" font-size="9" font-weight="700" letter-spacing="0.09em" fill="#6f675f">CONCEPT</text>
+      <text x="346" y="338" font-family="Avenir Next, Segoe UI, sans-serif" font-size="15" font-weight="700" fill="#1d1b19">Light Convergence</text>
+      <text x="346" y="359" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="12" fill="#544c45">what people reach for when</text><text x="346" y="374" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="12" fill="#544c45">they feel the hunger for</text>
+    </g>
+  
+
+    <g>
+      <rect x="1120" y="298" width="230" height="92" rx="18" fill="#dde5ef" stroke="rgba(65,49,34,0.08)" />
+      <text x="1136" y="316" font-family="Avenir Next, Segoe UI, sans-serif" font-size="9" font-weight="700" letter-spacing="0.09em" fill="#6f675f">CONCEPT</text>
+      <text x="1136" y="338" font-family="Avenir Next, Segoe UI, sans-serif" font-size="15" font-weight="700" fill="#1d1b19">Dark Convergence</text>
+      <text x="1136" y="359" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="12" fill="#544c45">what people flee from when</text><text x="1136" y="374" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="12" fill="#544c45">disconnection intensifies</text>
+    </g>
+  
+
+    <g>
+      <rect x="100" y="160" width="190" height="58" rx="18" fill="#dce8dc" stroke="rgba(65,49,34,0.08)" />
+      <text x="116" y="178" font-family="Avenir Next, Segoe UI, sans-serif" font-size="9" font-weight="700" letter-spacing="0.09em" fill="#6f675f">PROJECT</text>
+      <text x="116" y="200" font-family="Avenir Next, Segoe UI, sans-serif" font-size="15" font-weight="700" fill="#1d1b19">mindfulness revolution</text>
+      
+    </g>
+  
+
+    <g>
+      <rect x="350" y="160" width="190" height="58" rx="18" fill="#dce8dc" stroke="rgba(65,49,34,0.08)" />
+      <text x="366" y="178" font-family="Avenir Next, Segoe UI, sans-serif" font-size="9" font-weight="700" letter-spacing="0.09em" fill="#6f675f">PROJECT</text>
+      <text x="366" y="200" font-family="Avenir Next, Segoe UI, sans-serif" font-size="15" font-weight="700" fill="#1d1b19">return to wisdom traditions</text>
+      
+    </g>
+  
+
+    <g>
+      <rect x="600" y="160" width="190" height="58" rx="18" fill="#dce8dc" stroke="rgba(65,49,34,0.08)" />
+      <text x="616" y="178" font-family="Avenir Next, Segoe UI, sans-serif" font-size="9" font-weight="700" letter-spacing="0.09em" fill="#6f675f">PROJECT</text>
+      <text x="616" y="200" font-family="Avenir Next, Segoe UI, sans-serif" font-size="15" font-weight="700" fill="#1d1b19">search for meaning in life</text>
+      
+    </g>
+  
+
+    <g>
+      <rect x="890" y="160" width="190" height="58" rx="18" fill="#f0dfd4" stroke="rgba(65,49,34,0.08)" />
+      <text x="906" y="178" font-family="Avenir Next, Segoe UI, sans-serif" font-size="9" font-weight="700" letter-spacing="0.09em" fill="#6f675f">SYMPTOM</text>
+      <text x="906" y="200" font-family="Avenir Next, Segoe UI, sans-serif" font-size="15" font-weight="700" fill="#1d1b19">mental-health crisis</text>
+      
+    </g>
+  
+
+    <g>
+      <rect x="1140" y="160" width="190" height="58" rx="18" fill="#f0dfd4" stroke="rgba(65,49,34,0.08)" />
+      <text x="1156" y="178" font-family="Avenir Next, Segoe UI, sans-serif" font-size="9" font-weight="700" letter-spacing="0.09em" fill="#6f675f">SYMPTOM</text>
+      <text x="1156" y="200" font-family="Avenir Next, Segoe UI, sans-serif" font-size="15" font-weight="700" fill="#1d1b19">pervasive bullshit</text>
+      
+    </g>
+  
+
+    <g>
+      <rect x="1390" y="160" width="190" height="58" rx="18" fill="#f0dfd4" stroke="rgba(65,49,34,0.08)" />
+      <text x="1406" y="178" font-family="Avenir Next, Segoe UI, sans-serif" font-size="9" font-weight="700" letter-spacing="0.09em" fill="#6f675f">SYMPTOM</text>
+      <text x="1406" y="200" font-family="Avenir Next, Segoe UI, sans-serif" font-size="15" font-weight="700" fill="#1d1b19">nihilism and despair</text>
+      
+    </g>
+  
+
+    <g>
+      <rect x="715" y="510" width="230" height="92" rx="18" fill="#ece2f3" stroke="rgba(65,49,34,0.08)" />
+      <text x="731" y="528" font-family="Avenir Next, Segoe UI, sans-serif" font-size="9" font-weight="700" letter-spacing="0.09em" fill="#6f675f">CLAIM</text>
+      <text x="731" y="550" font-family="Avenir Next, Segoe UI, sans-serif" font-size="15" font-weight="700" fill="#1d1b19">The Meaning Crisis</text>
+      <text x="731" y="571" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="12" fill="#544c45">one diagnosis beneath many</text><text x="731" y="586" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="12" fill="#544c45">symptoms</text>
+    </g>
+  
+
+    <g>
+      <rect x="435" y="722" width="230" height="92" rx="18" fill="#f3dddd" stroke="rgba(65,49,34,0.08)" />
+      <text x="451" y="740" font-family="Avenir Next, Segoe UI, sans-serif" font-size="9" font-weight="700" letter-spacing="0.09em" fill="#6f675f">QUESTION</text>
+      <text x="451" y="762" font-family="Avenir Next, Segoe UI, sans-serif" font-size="15" font-weight="700" fill="#1d1b19">What is meaning?</text>
+      <text x="451" y="783" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="12" fill="#544c45">its structure and function</text>
+    </g>
+  
+
+    <g>
+      <rect x="725" y="722" width="230" height="92" rx="18" fill="#f3dddd" stroke="rgba(65,49,34,0.08)" />
+      <text x="741" y="740" font-family="Avenir Next, Segoe UI, sans-serif" font-size="9" font-weight="700" letter-spacing="0.09em" fill="#6f675f">QUESTION</text>
+      <text x="741" y="762" font-family="Avenir Next, Segoe UI, sans-serif" font-size="15" font-weight="700" fill="#1d1b19">Why do we hunger?</text>
+      <text x="741" y="783" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="12" fill="#544c45">its role in cognition and</text><text x="741" y="798" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="12" fill="#544c45">life</text>
+    </g>
+  
+
+    <g>
+      <rect x="1015" y="722" width="230" height="92" rx="18" fill="#f3dddd" stroke="rgba(65,49,34,0.08)" />
+      <text x="1031" y="740" font-family="Avenir Next, Segoe UI, sans-serif" font-size="9" font-weight="700" letter-spacing="0.09em" fill="#6f675f">QUESTION</text>
+      <text x="1031" y="762" font-family="Avenir Next, Segoe UI, sans-serif" font-size="15" font-weight="700" fill="#1d1b19">Cultivating wisdom</text>
+      <text x="1031" y="783" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="12" fill="#544c45">how awakening becomes</text><text x="1031" y="798" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="12" fill="#544c45">practice</text>
+    </g>
+  
+
+      <rect x="605" y="976" width="510" height="36" rx="12" fill="rgba(255, 252, 245, 0.94)" stroke="rgba(96,74,49,0.06)" />
+      <text x="860" y="999" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#1d1b19">The meaning crisis is what you feel when you no longer feel at home in the world.</text>
+    
+</svg>

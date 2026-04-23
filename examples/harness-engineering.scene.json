@@ -1,0 +1,128 @@
+{
+  "title": "Harness Engineering",
+  "subtitle": "Guiding the model to its ceiling (via Hung-yi Lee)",
+  "nodes": [
+    {
+      "id": "the-model",
+      "label": "The Model",
+      "kind": "concept",
+      "summary": "the horse: parameters, context window, capabilities"
+    },
+    {
+      "id": "the-ceiling",
+      "label": "The Ceiling",
+      "kind": "claim",
+      "summary": "the theoretical maximum of what the model can do"
+    },
+    {
+      "id": "failure-illusion",
+      "label": "The Failure Illusion",
+      "kind": "symptom",
+      "summary": "blaming the model's intelligence instead of human guidance"
+    },
+
+    {
+      "id": "harness-eng",
+      "label": "Harness Engineering",
+      "kind": "project",
+      "summary": "the craft of steering the model to its ceiling"
+    },
+
+    {
+      "id": "raw-prompts",
+      "label": "1. Raw Prompts",
+      "kind": "figure",
+      "summary": "a text box and hope (GPT-3 era)"
+    },
+    {
+      "id": "system-messages",
+      "label": "2. System Messages",
+      "kind": "figure",
+      "summary": "setting the stance and role (ChatGPT)"
+    },
+    {
+      "id": "few-shot",
+      "label": "3. Few-Shot",
+      "kind": "figure",
+      "summary": "in-context pattern matching"
+    },
+    {
+      "id": "cot",
+      "label": "4. Chain-of-Thought",
+      "kind": "figure",
+      "summary": "shaping the process, step by step"
+    },
+    {
+      "id": "tools",
+      "label": "5. Tool Use",
+      "kind": "figure",
+      "summary": "calling the world instead of guessing facts"
+    },
+    {
+      "id": "structured-out",
+      "label": "6. Structured Output",
+      "kind": "figure",
+      "summary": "JSON schemas for downstream consumption"
+    },
+    {
+      "id": "agent-loops",
+      "label": "7. Agent Loops",
+      "kind": "figure",
+      "summary": "act, observe, act again"
+    },
+    {
+      "id": "evals",
+      "label": "8. Evals",
+      "kind": "figure",
+      "summary": "feedback signal to tune the harness"
+    },
+
+    {
+      "id": "useful",
+      "label": "Usefulness",
+      "kind": "claim",
+      "summary": "the harness doesn't make the model smarter, just more useful"
+    }
+  ],
+  "edges": [
+    { "from": "the-model", "to": "the-ceiling", "kind": "supports", "label": "sets" },
+    { "from": "failure-illusion", "to": "harness-eng", "kind": "bridges", "label": "cured by" },
+    
+    { "from": "the-ceiling", "to": "harness-eng", "kind": "bridges", "label": "reached via" },
+
+    { "from": "harness-eng", "to": "raw-prompts", "kind": "supports" },
+    { "from": "raw-prompts", "to": "system-messages", "kind": "supports" },
+    { "from": "system-messages", "to": "few-shot", "kind": "supports" },
+    { "from": "few-shot", "to": "cot", "kind": "supports" },
+    { "from": "cot", "to": "tools", "kind": "supports" },
+    { "from": "tools", "to": "structured-out", "kind": "supports" },
+    { "from": "structured-out", "to": "agent-loops", "kind": "supports" },
+    { "from": "agent-loops", "to": "evals", "kind": "supports" },
+
+    { "from": "evals", "to": "useful", "kind": "bridges", "label": "ensures" }
+  ],
+  "groups": [
+    {
+      "id": "problem-space",
+      "label": "The Premise",
+      "members": ["the-model", "the-ceiling", "failure-illusion", "harness-eng"]
+    },
+    {
+      "id": "evolution",
+      "label": "History of the Harness",
+      "members": ["raw-prompts", "system-messages", "few-shot", "cot", "tools", "structured-out", "agent-loops", "evals"]
+    }
+  ],
+  "annotations": [
+    {
+      "id": "note-anchor",
+      "text": "Sometimes the language model isn't not smart enough — it just isn't being guided well by humans.",
+      "kind": "insight"
+    }
+  ],
+  "view": {
+    "theme": "light",
+    "showSummaries": true,
+    "showEdgeLabels": true
+  }
+}

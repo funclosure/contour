@@ -1,0 +1,85 @@
+{
+  "title": "Awakening from the Meaning Crisis — Ep. 3",
+  "subtitle": "Continuous Cosmos, the Two Worlds Mythology, and the Modern Mismatch",
+  "nodes": [
+    {
+      "id": "continuous-cosmos",
+      "label": "Continuous Cosmos",
+      "kind": "concept",
+      "summary": "the ancient unified world of cycles, power, and fitting in"
+    },
+    {
+      "id": "two-worlds",
+      "label": "Two-World Mythology",
+      "kind": "claim",
+      "summary": "the Axial split of reality into two distinct realms"
+    },
+    {
+      "id": "everyday-world",
+      "label": "The Everyday World",
+      "kind": "symptom",
+      "summary": "the realm of illusion, flaw, and appearance"
+    },
+    {
+      "id": "real-world",
+      "label": "The Real World",
+      "kind": "concept",
+      "summary": "the realm of truth, flawlessness, and ultimate meaning"
+    },
+    {
+      "id": "the-pilgrim",
+      "label": "The Pilgrim",
+      "kind": "figure",
+      "summary": "the seeker of self-transcendence cutting through illusion"
+    },
+    {
+      "id": "science",
+      "label": "Scientific Worldview",
+      "kind": "project",
+      "summary": "collapses the Two Worlds, returning us to a flat continuous cosmos"
+    },
+    {
+      "id": "the-mismatch",
+      "label": "The Modern Mismatch",
+      "kind": "claim",
+      "summary": "using Axial grammar in a world where the 'Real World' ceiling has collapsed"
+    }
+  ],
+  "edges": [
+    { "from": "continuous-cosmos", "to": "two-worlds", "kind": "bridges", "label": "shattered by" },
+    
+    { "from": "two-worlds", "to": "everyday-world", "kind": "supports" },
+    { "from": "two-worlds", "to": "real-world", "kind": "supports" },
+    
+    { "from": "everyday-world", "to": "the-pilgrim", "kind": "bridges", "label": "departs from" },
+    { "from": "the-pilgrim", "to": "real-world", "kind": "bridges", "label": "ascends toward" },
+
+    { "from": "two-worlds", "to": "science", "kind": "bridges", "label": "dismantled by" },
+    { "from": "science", "to": "the-mismatch", "kind": "bridges", "label": "causes" },
+    { "from": "the-mismatch", "to": "continuous-cosmos", "kind": "bridges", "label": "ironic return to" }
+  ],
+  "groups": [
+    {
+      "id": "axial-shift",
+      "label": "The Axial Structure",
+      "members": ["two-worlds", "everyday-world", "real-world", "the-pilgrim"]
+    },
+    {
+      "id": "modernity",
+      "label": "The Crisis",
+      "members": ["science", "the-mismatch"]
+    }
+  ],
+  "annotations": [
+    {
+      "id": "note-anchor",
+      "text": "We are trapped using the meaning-making grammar of the Two Worlds to navigate a flattened cosmos.",
+      "kind": "insight"
+    }
+  ],
+  "view": {
+    "theme": "light",
+    "showSummaries": true,
+    "showEdgeLabels": true
+  }
+}

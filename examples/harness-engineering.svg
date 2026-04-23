@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100%" viewBox="0 0 1160 2708" xmlns="http://www.w3.org/2000/svg" role="img">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8f3ea" />
+      <stop offset="100%" stop-color="#f4efe6" />
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="1160" height="2708" fill="url(#bg)" />
+  <rect x="20" y="18" width="1120" height="72" rx="18" fill="rgba(255,255,255,0.58)" stroke="rgba(96,74,49,0.08)" />
+  <text x="40" y="52" font-family="Avenir Next, Segoe UI, sans-serif" font-size="28" font-weight="700" fill="#1d1b19">Harness Engineering</text>
+  <text x="40" y="76" font-family="Avenir Next, Segoe UI, sans-serif" font-size="14" fill="#6f675f">Guiding the model to its ceiling (via Hung-yi Lee)</text>
+
+
+        <rect x="88" y="128" width="548" height="712" rx="34" fill="rgba(210, 192, 170, 0.11)" stroke="rgba(124, 105, 85, 0.18)" />
+        <text x="102" y="118" font-family="Avenir Next, Segoe UI, sans-serif" font-size="12" font-weight="700" letter-spacing="0.08em" text-transform="uppercase" fill="#6f675f">The Premise</text>
+      
+
+        <rect x="126.33333333333331" y="882" width="278" height="1414" rx="34" fill="rgba(210, 192, 170, 0.11)" stroke="rgba(124, 105, 85, 0.18)" />
+        <text x="140.33333333333331" y="872" font-family="Avenir Next, Segoe UI, sans-serif" font-size="12" font-weight="700" letter-spacing="0.08em" text-transform="uppercase" fill="#6f675f">History of the Harness</text>
+      
+<path d="M 227 244 L 227 438" fill="none" stroke="#7f756a" stroke-width="1.9" opacity="0.88" />
+
+          <rect x="193" y="330" width="40" height="18" rx="9" fill="#f4efe6" opacity="0.96" />
+          <text x="213" y="344" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="10" font-weight="600" fill="#6f675f">sets</text>
+        
+<path d="M 497 600 L 497 690 Q 497 714, 473 714 L 308.6666666666667 714 Q 303.6666666666667 714, 303.6666666666667 719 L 303.6666666666667 724" fill="none" stroke="#7f756a" stroke-width="1.9" opacity="0.88" />
+
+          <rect x="492" y="686" width="64" height="18" rx="9" fill="#f4efe6" opacity="0.96" />
+          <text x="524" y="700" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="10" font-weight="600" fill="#6f675f">cured by</text>
+        
+<path d="M 227 530 L 227 724" fill="none" stroke="#7f756a" stroke-width="1.9" opacity="0.88" />
+
+          <rect x="151" y="616" width="82" height="18" rx="9" fill="#f4efe6" opacity="0.96" />
+          <text x="192" y="630" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="10" font-weight="600" fill="#6f675f">reached via</text>
+        
+<path d="M 265.3333333333333 816 L 265.3333333333333 906" fill="none" stroke="#7f756a" stroke-width="1.9" opacity="0.88" />
+<path d="M 265.3333333333333 998 L 265.3333333333333 1088" fill="none" stroke="#7f756a" stroke-width="1.9" opacity="0.88" />
+<path d="M 265.3333333333333 1180 L 265.3333333333333 1270" fill="none" stroke="#7f756a" stroke-width="1.9" opacity="0.88" />
+<path d="M 265.3333333333333 1362 L 265.3333333333333 1452" fill="none" stroke="#7f756a" stroke-width="1.9" opacity="0.88" />
+<path d="M 265.3333333333333 1544 L 265.3333333333333 1634" fill="none" stroke="#7f756a" stroke-width="1.9" opacity="0.88" />
+<path d="M 265.3333333333333 1726 L 265.3333333333333 1816" fill="none" stroke="#7f756a" stroke-width="1.9" opacity="0.88" />
+<path d="M 265.3333333333333 1908 L 265.3333333333333 1998" fill="none" stroke="#7f756a" stroke-width="1.9" opacity="0.88" />
+<path d="M 265.3333333333333 2090 L 265.3333333333333 2180" fill="none" stroke="#7f756a" stroke-width="1.9" opacity="0.88" />
+<path d="M 265.3333333333333 2272 L 265.3333333333333 2466" fill="none" stroke="#7f756a" stroke-width="1.9" opacity="0.88" />
+
+          <rect x="213.33333333333331" y="2358" width="58" height="18" rx="9" fill="#f4efe6" opacity="0.96" />
+          <text x="242.33333333333331" y="2372" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="10" font-weight="600" fill="#6f675f">ensures</text>
+        
+
+      <g>
+        <!-- The brush stroke highlight -->
+        <path d="M 157 186 Q 227 189 297 184" 
+              fill="none" stroke="#c4d4e6" stroke-width="22" stroke-linecap="round" opacity="0.8" />
+        
+        <text x="227" y="166" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="10" font-weight="700" letter-spacing="0.09em" fill="#6f675f">CONCEPT</text>
+        <text x="227" y="193" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="20" font-weight="700" fill="#1d1b19">The Model</text>
+        <text x="227" y="218" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">the horse: parameters,</text><text x="227" y="235" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">context window, capabilities</text>
+      </g>
+    
+
+      <g>
+        <!-- The brush stroke highlight -->
+        <path d="M 145 472 Q 227 475 309 470" 
+              fill="none" stroke="#dfccee" stroke-width="22" stroke-linecap="round" opacity="0.8" />
+        
+        <text x="227" y="452" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="10" font-weight="700" letter-spacing="0.09em" fill="#6f675f">CLAIM</text>
+        <text x="227" y="479" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="20" font-weight="700" fill="#1d1b19">The Ceiling</text>
+        <text x="227" y="504" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">the theoretical maximum of</text><text x="227" y="521" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">what the model can do</text>
+      </g>
+    
+
+      <g>
+        <!-- The brush stroke highlight -->
+        <path d="M 371 542 Q 497 545 623 540" 
+              fill="none" stroke="#e3cdbe" stroke-width="22" stroke-linecap="round" opacity="0.8" />
+        
+        <text x="497" y="522" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="10" font-weight="700" letter-spacing="0.09em" fill="#6f675f">SYMPTOM</text>
+        <text x="497" y="549" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="20" font-weight="700" fill="#1d1b19">The Failure Illusion</text>
+        <text x="497" y="574" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">blaming the model's</text><text x="497" y="591" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">intelligence instead of</text>
+      </g>
+    
+
+      <g>
+        <!-- The brush stroke highlight -->
+        <path d="M 139.33333333333331 758 Q 265.3333333333333 761 391.3333333333333 756" 
+              fill="none" stroke="#c6dbc6" stroke-width="22" stroke-linecap="round" opacity="0.8" />
+        
+        <text x="265.3333333333333" y="738" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="10" font-weight="700" letter-spacing="0.09em" fill="#6f675f">PROJECT</text>
+        <text x="265.3333333333333" y="765" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="20" font-weight="700" fill="#1d1b19">Harness Engineering</text>
+        <text x="265.3333333333333" y="790" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">the craft of steering the</text><text x="265.3333333333333" y="807" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">model to its ceiling</text>
+      </g>
+    
+
+      <g>
+        <!-- The brush stroke highlight -->
+        <path d="M 165.33333333333331 940 Q 265.3333333333333 943 365.3333333333333 938" 
+              fill="none" stroke="#eadcc7" stroke-width="22" stroke-linecap="round" opacity="0.8" />
+        
+        <text x="265.3333333333333" y="920" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="10" font-weight="700" letter-spacing="0.09em" fill="#6f675f">FIGURE</text>
+        <text x="265.3333333333333" y="947" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="20" font-weight="700" fill="#1d1b19">1. Raw Prompts</text>
+        <text x="265.3333333333333" y="972" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">a text box and hope (GPT-3</text><text x="265.3333333333333" y="989" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">era)</text>
+      </g>
+    
+
+      <g>
+        <!-- The brush stroke highlight -->
+        <path d="M 141.33333333333331 1122 Q 265.3333333333333 1125 389.3333333333333 1120" 
+              fill="none" stroke="#eadcc7" stroke-width="22" stroke-linecap="round" opacity="0.8" />
+        
+        <text x="265.3333333333333" y="1102" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="10" font-weight="700" letter-spacing="0.09em" fill="#6f675f">FIGURE</text>
+        <text x="265.3333333333333" y="1129" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="20" font-weight="700" fill="#1d1b19">2. System Messages</text>
+        <text x="265.3333333333333" y="1154" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">setting the stance and role</text><text x="265.3333333333333" y="1171" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">(ChatGPT)</text>
+      </g>
+    
+
+      <g>
+        <!-- The brush stroke highlight -->
+        <path d="M 183.33333333333331 1304 Q 265.3333333333333 1307 347.3333333333333 1302" 
+              fill="none" stroke="#eadcc7" stroke-width="22" stroke-linecap="round" opacity="0.8" />
+        
+        <text x="265.3333333333333" y="1284" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="10" font-weight="700" letter-spacing="0.09em" fill="#6f675f">FIGURE</text>
+        <text x="265.3333333333333" y="1311" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="20" font-weight="700" fill="#1d1b19">3. Few-Shot</text>
+        <text x="265.3333333333333" y="1336" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">in-context pattern matching</text>
+      </g>
+    
+
+      <g>
+        <!-- The brush stroke highlight -->
+        <path d="M 139.33333333333331 1486 Q 265.3333333333333 1489 391.3333333333333 1484" 
+              fill="none" stroke="#eadcc7" stroke-width="22" stroke-linecap="round" opacity="0.8" />
+        
+        <text x="265.3333333333333" y="1466" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="10" font-weight="700" letter-spacing="0.09em" fill="#6f675f">FIGURE</text>
+        <text x="265.3333333333333" y="1493" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="20" font-weight="700" fill="#1d1b19">4. Chain-of-Thought</text>
+        <text x="265.3333333333333" y="1518" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">shaping the process, step by</text><text x="265.3333333333333" y="1535" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">step</text>
+      </g>
+    
+
+      <g>
+        <!-- The brush stroke highlight -->
+        <path d="M 183.33333333333331 1668 Q 265.3333333333333 1671 347.3333333333333 1666" 
+              fill="none" stroke="#eadcc7" stroke-width="22" stroke-linecap="round" opacity="0.8" />
+        
+        <text x="265.3333333333333" y="1648" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="10" font-weight="700" letter-spacing="0.09em" fill="#6f675f">FIGURE</text>
+        <text x="265.3333333333333" y="1675" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="20" font-weight="700" fill="#1d1b19">5. Tool Use</text>
+        <text x="265.3333333333333" y="1700" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">calling the world instead of</text><text x="265.3333333333333" y="1717" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">guessing facts</text>
+      </g>
+    
+
+      <g>
+        <!-- The brush stroke highlight -->
+        <path d="M 139.33333333333331 1850 Q 265.3333333333333 1853 391.3333333333333 1848" 
+              fill="none" stroke="#eadcc7" stroke-width="22" stroke-linecap="round" opacity="0.8" />
+        
+        <text x="265.3333333333333" y="1830" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="10" font-weight="700" letter-spacing="0.09em" fill="#6f675f">FIGURE</text>
+        <text x="265.3333333333333" y="1857" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="20" font-weight="700" fill="#1d1b19">6. Structured Output</text>
+        <text x="265.3333333333333" y="1882" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">JSON schemas for downstream</text><text x="265.3333333333333" y="1899" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">consumption</text>
+      </g>
+    
+
+      <g>
+        <!-- The brush stroke highlight -->
+        <path d="M 165.33333333333331 2032 Q 265.3333333333333 2035 365.3333333333333 2030" 
+              fill="none" stroke="#eadcc7" stroke-width="22" stroke-linecap="round" opacity="0.8" />
+        
+        <text x="265.3333333333333" y="2012" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="10" font-weight="700" letter-spacing="0.09em" fill="#6f675f">FIGURE</text>
+        <text x="265.3333333333333" y="2039" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="20" font-weight="700" fill="#1d1b19">7. Agent Loops</text>
+        <text x="265.3333333333333" y="2064" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">act, observe, act again</text>
+      </g>
+    
+
+      <g>
+        <!-- The brush stroke highlight -->
+        <path d="M 201.33333333333331 2214 Q 265.3333333333333 2217 329.3333333333333 2212" 
+              fill="none" stroke="#eadcc7" stroke-width="22" stroke-linecap="round" opacity="0.8" />
+        
+        <text x="265.3333333333333" y="2194" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="10" font-weight="700" letter-spacing="0.09em" fill="#6f675f">FIGURE</text>
+        <text x="265.3333333333333" y="2221" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="20" font-weight="700" fill="#1d1b19">8. Evals</text>
+        <text x="265.3333333333333" y="2246" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">feedback signal to tune the</text><text x="265.3333333333333" y="2263" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">harness</text>
+      </g>
+    
+
+      <g>
+        <!-- The brush stroke highlight -->
+        <path d="M 189.33333333333331 2500 Q 265.3333333333333 2503 341.3333333333333 2498" 
+              fill="none" stroke="#dfccee" stroke-width="22" stroke-linecap="round" opacity="0.8" />
+        
+        <text x="265.3333333333333" y="2480" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="10" font-weight="700" letter-spacing="0.09em" fill="#6f675f">CLAIM</text>
+        <text x="265.3333333333333" y="2507" text-anchor="middle" font-family="Avenir Next, Segoe UI, sans-serif" font-size="20" font-weight="700" fill="#1d1b19">Usefulness</text>
+        <text x="265.3333333333333" y="2532" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">the harness doesn't make the</text><text x="265.3333333333333" y="2549" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#544c45">model smarter, just more</text>
+      </g>
+    
+
+        <rect x="325" y="2630" width="510" height="36" rx="12" fill="rgba(255, 252, 245, 0.94)" stroke="rgba(96,74,49,0.06)" />
+        <text x="580" y="2653" text-anchor="middle" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="14" fill="#1d1b19">Sometimes the language model isn't not smart enough — it just isn't being guided well by humans.</text>
+      
+</svg>

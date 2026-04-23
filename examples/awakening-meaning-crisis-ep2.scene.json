@@ -1,0 +1,83 @@
+{
+  "title": "Awakening from the Meaning Crisis — Ep. 2",
+  "subtitle": "Paleolithic roots, the Flow state, and the dawn of the Axial Revolution",
+  "nodes": [
+    {
+      "id": "metaphor",
+      "label": "Metaphorical Cognition",
+      "kind": "concept",
+      "summary": "implicit learning and connecting disparate domains"
+    },
+    {
+      "id": "shaman",
+      "label": "The Shaman",
+      "kind": "figure",
+      "summary": "using disruptive strategies to alter consciousness"
+    },
+    {
+      "id": "flow",
+      "label": "The Flow State",
+      "kind": "concept",
+      "summary": "effortless effort, at-one-ment, loss of self"
+    },
+
+    {
+      "id": "psychotech",
+      "label": "Psychotechnologies",
+      "kind": "concept",
+      "summary": "alphabetic literacy, numeracy, and coinage"
+    },
+    {
+      "id": "metacognition",
+      "label": "Second-Order Thinking",
+      "kind": "concept",
+      "summary": "the capacity to reflect on and correct one's own thoughts"
+    },
+    {
+      "id": "transcendence",
+      "label": "Self-Transcendence",
+      "kind": "project",
+      "summary": "the drive to overcome the mind's self-deception"
+    },
+
+    {
+      "id": "meaning",
+      "label": "Meaningfulness & Insight",
+      "kind": "claim",
+      "summary": "the shared goal: a more optimal grip on reality"
+    }
+  ],
+  "edges": [
+    { "from": "metaphor", "to": "shaman", "kind": "supports", "label": "equips" },
+    { "from": "shaman", "to": "flow", "kind": "supports", "label": "masters" },
+    { "from": "flow", "to": "meaning", "kind": "bridges", "label": "generates" },
+
+    { "from": "psychotech", "to": "metacognition", "kind": "supports", "label": "enables" },
+    { "from": "metacognition", "to": "transcendence", "kind": "supports", "label": "catalyzes" },
+    { "from": "transcendence", "to": "meaning", "kind": "bridges", "label": "seeks" }
+  ],
+  "groups": [
+    {
+      "id": "paleo",
+      "label": "Archaic & Experiential",
+      "members": ["metaphor", "shaman", "flow"]
+    },
+    {
+      "id": "axial",
+      "label": "The Axial Shift",
+      "members": ["psychotech", "metacognition", "transcendence"]
+    }
+  ],
+  "annotations": [
+    {
+      "id": "note-anchor",
+      "text": "The mind is both our greatest ally and our greatest enemy. Meaning-making requires tools to train it.",
+      "kind": "insight"
+    }
+  ],
+  "view": {
+    "theme": "light",
+    "showSummaries": true,
+    "showEdgeLabels": true
+  }
+}

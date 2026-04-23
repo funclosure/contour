@@ -1,0 +1,113 @@
+{
+  "title": "Awakening from the Meaning Crisis — Ep. 4",
+  "subtitle": "Socrates, Aporia, and the decoupling of Truth and Relevance",
+  "nodes": [
+    {
+      "id": "natural-philosophers",
+      "label": "Natural Philosophers",
+      "kind": "figure",
+      "summary": "seeking objective facts about the physical world",
+      "x": 0, "y": 0
+    },
+    {
+      "id": "sophists",
+      "label": "The Sophists",
+      "kind": "figure",
+      "summary": "masters of rhetoric, persuasion, and power",
+      "x": 0, "y": 0
+    },
+
+    {
+      "id": "truth-no-rel",
+      "label": "Truth without Relevance",
+      "kind": "symptom",
+      "summary": "facts that do not transform how you live",
+      "x": 0, "y": 0
+    },
+    {
+      "id": "rel-no-truth",
+      "label": "Relevance without Truth",
+      "kind": "symptom",
+      "summary": "bullshit: prioritizing what is salient over what is real",
+      "x": 0, "y": 0
+    },
+
+    {
+      "id": "self-deception",
+      "label": "Self-Deception",
+      "kind": "claim",
+      "summary": "the perennial human trap of pursuing false salience",
+      "x": 0, "y": 0
+    },
+
+    {
+      "id": "socrates",
+      "label": "Socrates",
+      "kind": "figure",
+      "summary": "the midwife of wisdom, knowing what he does not know",
+      "x": 0, "y": 0
+    },
+
+    {
+      "id": "elenchus",
+      "label": "Elenchus (Socratic Method)",
+      "kind": "project",
+      "summary": "questioning to strip away false knowledge",
+      "x": 0, "y": 0
+    },
+    {
+      "id": "aporia",
+      "label": "Aporia",
+      "kind": "concept",
+      "summary": "the state of shock, realization of ignorance, and insight",
+      "x": 0, "y": 0
+    },
+    
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "kind": "claim",
+      "summary": "the tight coupling of truth machinery and relevance machinery",
+      "x": 0, "y": 0
+    }
+  ],
+  "edges": [
+    { "from": "natural-philosophers", "to": "truth-no-rel", "kind": "claims", "label": "produce" },
+    { "from": "sophists", "to": "rel-no-truth", "kind": "claims", "label": "produce" },
+    
+    { "from": "truth-no-rel", "to": "self-deception", "kind": "supports" },
+    { "from": "rel-no-truth", "to": "self-deception", "kind": "supports" },
+
+    { "from": "self-deception", "to": "socrates", "kind": "bridges", "label": "confronted by" },
+    
+    { "from": "socrates", "to": "elenchus", "kind": "bridges", "label": "deploys" },
+    { "from": "elenchus", "to": "aporia", "kind": "bridges", "label": "induces" },
+    { "from": "aporia", "to": "wisdom", "kind": "bridges", "label": "makes possible" },
+
+    { "from": "wisdom", "to": "self-deception", "kind": "bridges", "label": "overcomes" }
+  ],
+  "groups": [
+    {
+      "id": "the-failures",
+      "label": "The Decoupled Traps",
+      "members": ["natural-philosophers", "sophists", "truth-no-rel", "rel-no-truth", "self-deception"]
+    },
+    {
+      "id": "the-cure",
+      "label": "The Socratic Path",
+      "members": ["socrates", "elenchus", "aporia", "wisdom"]
+    }
+  ],
+  "annotations": [
+    {
+      "id": "note-anchor",
+      "text": "Wisdom is not accumulating facts; it is protecting yourself from the bullshit of your own mind.",
+      "kind": "insight"
+    }
+  ],
+  "view": {
+    "theme": "light",
+    "showSummaries": true,
+    "showEdgeLabels": true
+  }
+}
