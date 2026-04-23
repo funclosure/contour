@@ -81,6 +81,16 @@ These are better metaphors than:
 - panels
 - boxes
 
+## Known Limitations & Next Steps
+
+The shift to an automated layout engine (ELK) introduced immense structural clarity but brought a new challenge: **algorithmic rigidity**. 
+Because layered layout algorithms optimize for straight paths and minimal crossings, they often produce symmetric, highly vertical, org-chart-like grids. 
+
+To push Contour closer to organic "terrain," future iterations should explore:
+1. **Force-directed layouts** to break the strict grid and create organic, clustered constellations.
+2. **Asymmetric authoring** in the scene model to naturally disrupt forced symmetry.
+3. **Blobby / contoured region envelopes** instead of strict rounded rectangles, so groups feel like topography rather than swimming lanes.
+
 ## Typography direction
 
 Prefer a pairing that feels:
